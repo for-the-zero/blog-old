@@ -10,7 +10,7 @@
     
     <title>
         
-            友链 | 
+            议论 | 
         
         for_the_zero 的破站
     </title>
@@ -48,7 +48,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://for-the-zero.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="友链 | for_the_zero 的破站">
+    <meta property="og:title" content="议论 | for_the_zero 的破站">
     <meta property="og:description" content="">
 
     <!--[if lte IE 9]>
@@ -212,115 +212,253 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E8%BF%99%E4%B8%AA%E7%A4%BE%E4%BC%9A%E6%98%AF%E4%B8%8D%E6%98%AF%E7%97%85%E4%BA%86"><span class="post-toc-number">1.</span> <span class="post-toc-text">这个社会是不是病了</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E9%A6%96%E5%85%88%EF%BC%8C%E6%9C%80%E5%A4%A7%E7%9A%84%E9%97%AE%E9%A2%98%E5%9C%A8%E4%BA%8E-%E5%AD%A6%E4%B9%A0"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">首先，最大的问题在于 学习</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%85%B6%E6%AC%A1%EF%BC%8C-%E7%BD%91%E7%BB%9C-%E4%B9%9F%E6%9C%89%E9%97%AE%E9%A2%98"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">其次， 网络 也有问题</span></a></li></ol></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
 
 <!-- Layouts -->
 
-    <!-- Single Links Page -->
-    <style>
-    .md-links {
-        min-height: calc(100% - 120px - 5pc - 6em);
-        text-align: center;
-        overflow: auto;
-        padding: 0;
-        margin: 0 auto;
-        max-width: 320px;
-    }
+    <!-- Post Module -->
+    <div class="material-post_container">
 
-    @media screen and (min-width: 640px) {
-        .md-links {
-            max-width: 640px;
-        }
-    }
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
 
-    @media screen and (min-width: 960px) {
-        .md-links {
-            max-width: 960px;
-        }
-    }
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-    @media screen and (min-width: 1280px) {
-        .md-links {
-            max-width: 1280px;
-        }
-    }
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
+</script>
 
-    @media screen and (min-width: 1600px) {
-        .md-links {
-            max-width: 1600px;
-        }
-    }
+        
+    
+            <p class="article-headline-p">
+                议论
+            </p>
+        </div>
 
-    @media screen and (max-width: 480px) {
-        .md-links {
-            min-height: calc(100% - 200px - 5pc - 6em);
-            margin-top: 6em;
-        }
-    }
 
-    .md-links-item {
-        background: #fff;
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-        height: 72px;
-        line-height: 15px;
-        margin: 20px 10px;
-        padding: 0px 0px;
-        transition: box-shadow 0.25s;
-    }
 
-    .md-links a {
-        color: #333;
-        text-decoration: none;
-    }
 
-    .md-links li {
-        width: 300px;
-        float: left;
-        list-style: none;
-    }
 
-    .md-links-item img {
-        float: left;
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 11px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    }
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
 
-    .md-links-item:hover {
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>for_the_zero</strong>
+        <span>1月 18, 2023</span>
+    </div>
 
-    .md-links-item a:hover{
-        cursor: pointer;
-    }
+    <div class="section-spacer"></div>
 
-    .md-links-title {
-        font-size: 20px;
-        line-height: 50px;
-    }
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
 
-    #scheme-Paradox .mdl-mini-footer{
-        clear: left;
-    }
-    #bottom{
-        position: relative;
-    }
-</style>
+    <!-- Qrcode -->
+    
 
-<ul class="md-links">
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-none-link" href="/tags/%E5%85%B6%E4%BB%96/" rel="tag">其他</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=议论&url=https://for-the-zero.github.io//2023/01/18/talking/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=议论&url=https://for-the-zero.github.io//2023/01/18/talking/index.html&via=for_the_zero" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://for-the-zero.github.io//2023/01/18/talking/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://for-the-zero.github.io//2023/01/18/talking/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://for-the-zero.github.io//2023/01/18/talking/index.html&text=议论" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
     
 </ul>
 
-<script>
-    var adjustFooter = function() {
-        if( ($('#bottom').offset().top + $('#bottom').outerHeight() )<$(window).height() ) {
-            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
-            $('#bottom').css('bottom', '-' + footerBottom + 'px');
-        }
-    };
-    $(document).ready(function() {
-        adjustFooter();
-    });
-</script>
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h1 id="这个社会是不是病了"><a href="#这个社会是不是病了" class="headerlink" title="这个社会是不是病了"></a>这个社会是不是病了</h1><hr>
+<ul>
+<li>手机写的</li>
+<li>只是表达自己的想法，没别的意思</li>
+<li>有什么的到<a target="_blank" rel="noopener" href="https://github.com/for-the-zero/for-the-zero.github.io/issues">issues</a>写出</li>
+<li>即兴写的，没打过稿，文笔不好，别在意</li>
+</ul>
+<hr>
+<h2 id="首先，最大的问题在于-学习"><a href="#首先，最大的问题在于-学习" class="headerlink" title="首先，最大的问题在于 学习"></a>首先，最大的问题在于 <strong>学习</strong></h2><p>为什么？这都进入了一种恶性竞争的状态了</p>
+<p>我们从小就听过<code>读好书未来才能活好</code>、<code>不读书长大以后只能XX</code>、<code>不读好书找工作只能别人选你，读好书就可以你选别人</code>之类的“真理”，好像没什么问题，但好像都有点问题，不读好书真的被动吗？如今互联网兴起，互联网职业越来越多，顶多考个专门的证，我有个例子，一个知名视频博主因为上学恋爱多年没上过学，学历低，档案又不行，但现在在网上混得也不错，可以靠视频平台的创作激励生活，其中剪视频要自己另外学，你就靠小学到高中的学识你能看一眼就会吗？随着时代的发展，变量越来越多，这些真的不一定了。<br>春节期间见了些老人，她们都会问我学习怎么样，有没有考100(现在满分都不止100了好吧)之类的，不止她们，包括父母都说学习好，但我觉得，学习环境变了太多了，没那么轻松了：</p>
+<ol>
+<li><p>早上太阳没升起就要起来，晚上在宿舍奋笔疾书，睡眠质量极差。</p>
+</li>
+<li><p>可以和同学们玩？说的是幼儿园我还信，上课不能说话，课间几乎没有(拖堂和“课前读书”占据后不到3分钟)，排队不能说话，宿舍不能说话……我能说什么？我能玩什么？</p>
+</li>
+<li><p>不用出力，但是脑力呢？</p>
+</li>
+<li><p>周末自由？做作业都要几天，课外补习班呢？</p>
+</li>
+<li><p>无忧无虑？压力大到喘不过气来还无忧无虑？在学校作业多得崩溃，做不好老师骂，有时同学还嘲笑，在家父母全方位指责……学习好好像能登天似的<br>……<br>现在又有五花八门的课外补习班压榨我们的时间，有人嗅探到商机，搞什么<code>量子速读</code>，离谱至极却有家长买单，为什么？他们只想着让孩子学习好，无论做什么，可这样真的行吗？<br>那双减呢？有的减了不如不减，有的根本没减，减了的学校会以另一种方式增加负担，升学率低谁选你啊。而且，要是所有人都减了，但凡一个人更加努力，就比别人更好，让后所有人都这么想，成了死循环啊，现在的学生，一年比一年艰难。<br>国内未成年人多，但用同一个标准评判，所有人都朝着它去，能好吗。就这样学习下去，小孩的本性被磨灭，人该有的勇气、自信、鉴别能力都没了(“老师、家长、书本都是100%正确的，不可能错误”和“反驳就是狡辩，就是错的”的观念)，学习的过程中几乎不能接触其他事物，长大后啥也不会怎么行？<br>各个科目多多少少可能有些问题，列举其中几个：</p>
+</li>
+<li><p>语文：就比如阅读理解，作者有的都不会，有些作者词穷了或者随便写的(网上能搜到)都能被出题人看出什么多重含义、承上启下之类的，这就是“我阅读并理解作者但作者不理解作者”的神奇场面</p>
+</li>
+<li><p>数学：别的不说，我就问你，(除了特殊职业)你生活有用过这些东西吗</p>
+</li>
+<li><p>政治：背书一大堆，背完几本课本，记忆力要求高，内容我都可以总结出一些常用句子了，例如<code>做……接班人</code> <code>为xx而xx</code>换句话说是升华主题的废话。题目问<code>对小明说什么</code>回答一大串知识点，要是正常生活回答那脑子肯定有_。我认为政治内容只要理解，大题避开知识点出，正常写话不就行了，用得着搞那些吗<br>一段时间前听到一个消息<code>某地中考加入视力</code>，再结合<code>中考加入体育</code>想想就离谱，你以为加入什么就重视什么吗？这不仅让本来不怎么公平的考试更不公平了(每个人体能不同，有人先天视力有问题)，还让我看清了一点：国家不仅是培养人才，还是“六边形战士”(全能超人)啊，但凡他们想想，学习包括在晚上宿舍学习，损害视力，平常都在学习没时间运动，运动就没时间学习，我真怀疑他们教育局是收了眼科医院的钱。<br>成绩差的不喜欢学习，成绩好的呢？我没见过他们喜欢学习，成绩好和喜欢学习不能画上等号，大家的原因个有个的，不喜欢学习有原因，压力大、作业多之类的，学习好有原因，就算不想学也得学，被迫学好。<br>为什么大家都不喜欢学习？假设“学习好，长大好找工作”是100%正确的，“付出就有回报”也是100%正确的。根据他所经历的，他一直付出很多，特别辛苦，一直下去十几年，结果只是找到工作，回报相对来说太小了，付出了50却收到1，不划算。而且学习好，长大一定能找到好工作吗？付出一定有回报吗？都不一定。另外，学习是每一天都在重复着的，多了也会无聊。<br>对于父母方面，大部分都爱孩子的，但方法可能都有点问题，都“望子成龙，望女成凤”，却只关心结果，无论过程多么努力，不知道孩子的感受，为了达成结果干什么都行，却不知道对孩子带来了多少伤害。</p>
+<h2 id="其次，-网络-也有问题"><a href="#其次，-网络-也有问题" class="headerlink" title="其次， 网络 也有问题"></a>其次， <strong>网络</strong> 也有问题</h2><p>国内的网络生态太烂了，我一一列举，尽量不点名<br>有些软件的工作串了，一个音乐软件，加什么直播、k歌、短视频甚至内置小游戏，还好这是可以选择的。某知名通讯软件甚至内置游戏引擎，用来做一个没用的功能，不管你用不用，反正就是要，而且知名通讯软件你没法不用它<br>有的软件只有一个平台，还不是技术层面不允许，令人反感。有的软件有网页版，但动不动就想要我下载软件……电脑下载软件要是下到了“p2p高速下载器”，捆绑安装一堆没用的软件，恶心人<br>广告遍地飞，用户的感受根本不管。商业竞争大，两平台打起来最大的受害者是用户。<br>现在还有什么赚钱软件，简单用一会就有钱，甚至有的宣传“0门槛” “秒提现” “赚得多” ，看宣传视频漏洞百出(秒下载，软件秒安装，界面假，……)而且点一下就30块的，你信吗？我不信<br>短视频横行，但内容大多没营养或不好，容易误导人，风气差，甚至有什么“黑化” “喜欢毒枭”这些奇奇怪怪的内容，而且很多人外放会打扰到别人(有视频配上奇奇怪怪的笑声，很烦很恶心)。现在的小孩子喜欢骂人(都成了口头禅)，甚至说写低俗的东西，有个小妹妹玩的时候经常说“屁屁” “大便”之类的，班里的同学经常说过不了审的东西……</p>
+</li>
+</ol>
+<hr>
+<p>我感觉社会这么发展越来越坏了……</p>
+
+    
+
+    
+</div>
 
 
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2023/01/15/一个迷宫的介绍/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
 
 
 
@@ -401,7 +539,7 @@
         </a>
         <ul class="dropdown-menu">
             <li>
-            <a class="sidebar_archives-link" href="/archives/2023/01/">一月 2023<span class="sidebar_archives-count">4</span></a>
+            <a class="sidebar_archives-link" href="/archives/2023/01/">一月 2023<span class="sidebar_archives-count">5</span></a>
         </ul>
     </li>
 
@@ -413,6 +551,15 @@
 
 
     <!-- Pages  -->
+  	
+        <li>
+            <a target="_blank" rel="noopener" href="https://github.com/for-the-zero/for-the-zero.github.io/issues" title="评论区">
+                
+                    <i class="material-icons sidebar-material-icons">comment</i>
+                
+                评论区
+            </a>
+        </li>
   	
         <li>
             <a href="/2023/01/14/%E5%85%B3%E4%BA%8E/" title="关于">
@@ -428,7 +575,7 @@
     <li>
         <a href="/archives">
             文章总数
-            <span class="sidebar-badge">4</span>
+            <span class="sidebar-badge">5</span>
         </a>
     </li>
 </ul>
@@ -493,6 +640,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
