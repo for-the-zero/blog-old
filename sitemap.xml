@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://for-the-zero.github.io/2023/05/02/%E8%87%AA%E8%BF%B0/</loc>
+    
+    <lastmod>2023-05-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://for-the-zero.github.io/2023/05/01/%E6%B2%A1%E6%9C%89%E6%89%8B%E6%9C%BA%E5%8F%B7%EF%BC%9F%E6%95%99%E4%BD%A0%E7%8E%A9%E4%B8%8AchatGPT/</loc>
     
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +67,7 @@
 
   <url>
     <loc>https://for-the-zero.github.io/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,42 +75,42 @@
   
   <url>
     <loc>https://for-the-zero.github.io/tags/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/Python/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/Dev/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/%E5%85%B6%E5%AE%83/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/chatGPT/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -110,21 +119,21 @@
   
   <url>
     <loc>https://for-the-zero.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/categories/Dev/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-05-01</lastmod>
+    <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
