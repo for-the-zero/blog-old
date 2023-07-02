@@ -6,7 +6,7 @@
   <link href="https://for-the-zero.github.io/atom.xml" rel="self"/>
   
   <link href="https://for-the-zero.github.io/"/>
-  <updated>2023-05-13T09:46:28.353Z</updated>
+  <updated>2023-07-02T07:01:49.782Z</updated>
   <id>https://for-the-zero.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在scratch简单实现拼音输入法</title>
+    <link href="https://for-the-zero.github.io/2023/07/02/scil/"/>
+    <id>https://for-the-zero.github.io/2023/07/02/scil/</id>
+    <published>2023-07-02T06:42:51.000Z</published>
+    <updated>2023-07-02T07:01:49.782Z</updated>
+    
+    <content type="html"><![CDATA[<p>先放点链接：</p><p><a href="http://gitblock.cn/Projects/1251282/">在线使用</a>   <a href="https://studycli.org/zh-CN/chinese-characters/the-100-most-common-chinese-characters/">最常见的100个汉字| 中国语言学院</a>   <a href="https://github.com/for-the-zero/practice.zip/tree/main/py/scil-helper">字典生成</a>   <a href="https://github.com/for-the-zero/practice.zip/blob/main/scratch/scil.sb3">源码</a></p><hr><h1 id="操作说明"><a href="#操作说明" class="headerlink" title="操作说明"></a>操作说明</h1><table><thead><tr><th align="center">按键</th><th align="center">说明</th></tr></thead><tbody><tr><td align="center">&#96;</td><td align="center">切换输入法</td></tr><tr><td align="center">|</td><td align="center">退格(英文状态没写，中文在模式0为删除最后字符、1为清空)</td></tr><tr><td align="center">大部分符号及英文状态的数字</td><td align="center">输入</td></tr><tr><td align="center">字母</td><td align="center">输入</td></tr><tr><td align="center">中文状态的数字</td><td align="center">选择</td></tr></tbody></table><hr><h1 id="实现起来不难"><a href="#实现起来不难" class="headerlink" title="实现起来不难"></a>实现起来不难</h1><h2 id="1-大体运行逻辑"><a href="#1-大体运行逻辑" class="headerlink" title="1. 大体运行逻辑"></a>1. 大体运行逻辑</h2><p><img src="/img/2023-07-02-14-51-34-image.png"></p><p>（图上写得很清楚了，不写了）</p><h2 id="2-识别按键"><a href="#2-识别按键" class="headerlink" title="2. 识别按键"></a>2. 识别按键</h2><p><img src="/img/2023-07-02-14-52-53-image.png"></p><p>利用循环遍历按键，逐个识别即可</p><h2 id="3-解决长按按键"><a href="#3-解决长按按键" class="headerlink" title="3. 解决长按按键"></a>3. 解决长按按键</h2><p><img src="/img/2023-07-02-14-54-23-image.png"></p><p>如图</p><h2 id="4-找字"><a href="#4-找字" class="headerlink" title="4. 找字"></a>4. 找字</h2><p><img src="/img/2023-07-02-14-55-33-image.png"></p><p>首先得出符合条件的拼音，一样使用遍历，包含输入的即可放到控制面板</p><p><img src="/img/2023-07-02-14-56-53-image.png"></p><p>根据拼音找字</p><h2 id="5-字典"><a href="#5-字典" class="headerlink" title="5. 字典"></a>5. 字典</h2><p>一个列表是拼音，一行一个</p><p>另一个是汉字，每一行互相对应，同拼音的放在同一行</p><p>这里使用了python中的<code>xpinying</code>模块获取拼音以及使用<code>shot()</code>排序</p><hr><p>别的没什么好写了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;先放点链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblock.cn/Projects/1251282/&quot;&gt;在线使用&lt;/a&gt;   &lt;a href=&quot;https://studycli.org/zh-CN/chinese-characters/the-100-mo</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>自述</title>

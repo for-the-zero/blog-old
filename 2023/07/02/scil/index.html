@@ -10,7 +10,7 @@
     
     <title>
         
-            分类: 教程 | 
+            如何在scratch简单实现拼音输入法 | 
         
         for_the_zero 的破站
     </title>
@@ -48,7 +48,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://for-the-zero.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="分类: 教程 | for_the_zero 的破站">
+    <meta property="og:title" content="如何在scratch简单实现拼音输入法 | for_the_zero 的破站">
     <meta property="og:description" content="">
 
     <!--[if lte IE 9]>
@@ -211,92 +211,272 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
     
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E"><span class="post-toc-number">1.</span> <span class="post-toc-text">操作说明</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E5%AE%9E%E7%8E%B0%E8%B5%B7%E6%9D%A5%E4%B8%8D%E9%9A%BE"><span class="post-toc-number">2.</span> <span class="post-toc-text">实现起来不难</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-%E5%A4%A7%E4%BD%93%E8%BF%90%E8%A1%8C%E9%80%BB%E8%BE%91"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">1. 大体运行逻辑</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-%E8%AF%86%E5%88%AB%E6%8C%89%E9%94%AE"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">2. 识别按键</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-%E8%A7%A3%E5%86%B3%E9%95%BF%E6%8C%89%E6%8C%89%E9%94%AE"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">3. 解决长按按键</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#4-%E6%89%BE%E5%AD%97"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">4. 找字</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#5-%E5%AD%97%E5%85%B8"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">5. 字典</span></a></li></ol></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2023/05/01/%E6%B2%A1%E6%9C%89%E6%89%8B%E6%9C%BA%E5%8F%B7%EF%BC%9F%E6%95%99%E4%BD%A0%E7%8E%A9%E4%B8%8AchatGPT/">没有手机号？教你玩上chatGPT</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            没有手机号？教你玩上chatGPT我有两个方法，可点击左侧目录按钮跳转。
-1. chatSonic(要科学上网)writesonic是一个ai写作工具，上线了chatGPT功能，叫chatSonic
-登录方式：邮箱、谷歌等，无需手机号
-首页点击chatSonic即可
-免费限制10000词
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2023/05/01/%E6%B2%A1%E6%9C%89%E6%89%8B%E6%9C%BA%E5%8F%B7%EF%BC%9F%E6%95%99%E4%BD%A0%E7%8E%A9%E4%B8%8AchatGPT/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="for_the_zero's avatar">
-            </div>
-            <div>
-                <strong>for_the_zero</strong>
-                <span>5月 01, 2023</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
-
-        locatePost = locatePost.next();
-    }
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                如何在scratch简单实现拼音输入法
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>for_the_zero</strong>
+        <span>7月 02, 2023</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=如何在scratch简单实现拼音输入法&url=https://for-the-zero.github.io//2023/07/02/scil/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=如何在scratch简单实现拼音输入法&url=https://for-the-zero.github.io//2023/07/02/scil/index.html&via=for_the_zero" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://for-the-zero.github.io//2023/07/02/scil/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://for-the-zero.github.io//2023/07/02/scil/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://for-the-zero.github.io//2023/07/02/scil/index.html&text=如何在scratch简单实现拼音输入法" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>先放点链接：</p>
+<p><a target="_blank" rel="noopener" href="http://gitblock.cn/Projects/1251282/">在线使用</a>   <a target="_blank" rel="noopener" href="https://studycli.org/zh-CN/chinese-characters/the-100-most-common-chinese-characters/">最常见的100个汉字| 中国语言学院</a>   <a target="_blank" rel="noopener" href="https://github.com/for-the-zero/practice.zip/tree/main/py/scil-helper">字典生成</a>   <a target="_blank" rel="noopener" href="https://github.com/for-the-zero/practice.zip/blob/main/scratch/scil.sb3">源码</a></p>
+<hr>
+<h1 id="操作说明"><a href="#操作说明" class="headerlink" title="操作说明"></a>操作说明</h1><table>
+<thead>
+<tr>
+<th align="center">按键</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">&#96;</td>
+<td align="center">切换输入法</td>
+</tr>
+<tr>
+<td align="center">|</td>
+<td align="center">退格(英文状态没写，中文在模式0为删除最后字符、1为清空)</td>
+</tr>
+<tr>
+<td align="center">大部分符号及英文状态的数字</td>
+<td align="center">输入</td>
+</tr>
+<tr>
+<td align="center">字母</td>
+<td align="center">输入</td>
+</tr>
+<tr>
+<td align="center">中文状态的数字</td>
+<td align="center">选择</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="实现起来不难"><a href="#实现起来不难" class="headerlink" title="实现起来不难"></a>实现起来不难</h1><h2 id="1-大体运行逻辑"><a href="#1-大体运行逻辑" class="headerlink" title="1. 大体运行逻辑"></a>1. 大体运行逻辑</h2><p><img src="/img/2023-07-02-14-51-34-image.png"></p>
+<p>（图上写得很清楚了，不写了）</p>
+<h2 id="2-识别按键"><a href="#2-识别按键" class="headerlink" title="2. 识别按键"></a>2. 识别按键</h2><p><img src="/img/2023-07-02-14-52-53-image.png"></p>
+<p>利用循环遍历按键，逐个识别即可</p>
+<h2 id="3-解决长按按键"><a href="#3-解决长按按键" class="headerlink" title="3. 解决长按按键"></a>3. 解决长按按键</h2><p><img src="/img/2023-07-02-14-54-23-image.png"></p>
+<p>如图</p>
+<h2 id="4-找字"><a href="#4-找字" class="headerlink" title="4. 找字"></a>4. 找字</h2><p><img src="/img/2023-07-02-14-55-33-image.png"></p>
+<p>首先得出符合条件的拼音，一样使用遍历，包含输入的即可放到控制面板</p>
+<p><img src="/img/2023-07-02-14-56-53-image.png"></p>
+<p>根据拼音找字</p>
+<h2 id="5-字典"><a href="#5-字典" class="headerlink" title="5. 字典"></a>5. 字典</h2><p>一个列表是拼音，一行一个</p>
+<p>另一个是汉字，每一行互相对应，同拼音的放在同一行</p>
+<p>这里使用了python中的<code>xpinying</code>模块获取拼音以及使用<code>shot()</code>排序</p>
+<hr>
+<p>别的没什么好写了</p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2023/05/02/自述/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
