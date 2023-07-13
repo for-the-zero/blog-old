@@ -6,7 +6,7 @@
   <link href="https://for-the-zero.github.io/atom.xml" rel="self"/>
   
   <link href="https://for-the-zero.github.io/"/>
-  <updated>2023-07-02T07:01:49.782Z</updated>
+  <updated>2023-07-13T11:54:34.664Z</updated>
   <id>https://for-the-zero.github.io/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在scratch实现简单纯画笔排版</title>
+    <link href="https://for-the-zero.github.io/2023/07/13/%E5%9C%A8scratch%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%BA%AF%E7%94%BB%E7%AC%94%E6%8E%92%E7%89%88/"/>
+    <id>https://for-the-zero.github.io/2023/07/13/%E5%9C%A8scratch%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%BA%AF%E7%94%BB%E7%AC%94%E6%8E%92%E7%89%88/</id>
+    <published>2023-07-13T11:54:22.000Z</published>
+    <updated>2023-07-13T11:54:34.664Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="在scratch实现简单纯画笔排版"><a href="#在scratch实现简单纯画笔排版" class="headerlink" title="在scratch实现简单纯画笔排版"></a>在scratch实现简单纯画笔排版</h1><p><a href="http://gitblock.cn/Projects/1254035">在线玩</a></p><hr><p>食用方法：</p><p>两个字符对应一个操作</p><p>如果<code>\</code>开头，执行操作：<code>\n</code>回车<code>\s</code>空格(space)</p><p>其它（非强制要求）</p><blockquote><ol><li><code>@</code>开头</li></ol><p>表示符号，后面跟符号参数</p><p>这里内置<code>@?</code>全字符大小<code>@h</code>半字符大小用于测试</p></blockquote><blockquote><ol start="2"><li>其它</li></ol><p>对应的字+<code>-</code>，如<code>a-</code>,<code>1-</code>,<code>好-</code>分别表示<code>a</code>,<code>1</code>,<code>好</code></p><p>大写英文：对应的字+<code>-</code>，如<code>a+</code>表示<code>A</code>，主要是因为sc不支持识别大写</p></blockquote><hr><p>基于以前做的pfs修改，以前只能一个一个字显示，现在我可以直接搞一行字了！</p><p>主要做了：</p><ul><li><p>下一个字位置的计算</p></li><li><p>空格、回车</p></li><li><p>自动换行</p></li><li><p>超过区域不渲染</p></li><li><p>字距、行距</p></li><li><p>……</p></li></ul><p>具体自己看源码，很简单</p><p>很多bug，有的解决了但不知道为什么这样能解决，有的懒得搞了</p><p>屎山能运行就别动了……</p><hr><p><strong>很大的缺点：字体要一个一个做（正在尝试用python生成，不知道能不能成功）</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;在scratch实现简单纯画笔排版&quot;&gt;&lt;a href=&quot;#在scratch实现简单纯画笔排版&quot; class=&quot;headerlink&quot; title=&quot;在scratch实现简单纯画笔排版&quot;&gt;&lt;/a&gt;在scratch实现简单纯画笔排版&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>来交个友吧</title>
+    <link href="https://for-the-zero.github.io/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/"/>
+    <id>https://for-the-zero.github.io/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/</id>
+    <published>2023-07-13T10:56:54.000Z</published>
+    <updated>2023-07-13T11:29:42.355Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="寻知音"><a href="#寻知音" class="headerlink" title="寻知音"></a>寻知音</h1><hr><h1 id="为什么："><a href="#为什么：" class="headerlink" title="为什么："></a>为什么：</h1><ol><li><p>现实朋友少</p></li><li><p>交友处处受挫(一方面经验不足，另一方面话题少)</p></li><li><p>他人不理解，慢慢疏远</p></li><li><p>不受人待见(有一个原本互不相识的，自我与他第一句话开始就看出很讨厌我，但与他人态度完全不同)</p></li><li><p>不如在网络世界试试</p></li></ol><hr><h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><p>侧边栏有邮箱，展示只开放这一个</p><p>再写一遍吧：<a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></p><hr><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>附下两个blog链接<a href="/2023/01/14/%E5%85%B3%E4%BA%8E/">a</a><a href="/2023/05/02/%E8%87%AA%E8%BF%B0/">b</a></p><ul><li><p>会coding，但不多（scratch和python）</p></li><li><p>使用哔哩哔哩、米游社</p></li><li><p>不喜欢短视频</p></li><li><p>才华多但不精（人话：会做很多事但一般都是入门级别</p></li><li><p>垃圾电脑+垃圾手机</p></li><li><p>天天宅家玩</p></li><li><p>时不时有很多想法，有些不可能、有些没能力、有的正在做</p></li><li><p>学习忙碌（指有时间打游戏刷视频</p></li><li><p>玩原神、崩铁和phigros          的模拟器phira，但摆烂型玩家</p></li><li><p>崩铁没厨哪个</p></li><li><p>原神厨散兵(那次闹事与我无关，我强烈谴责，希望大家不要以偏概全)，剧情还是有点瑕疵，但我喜欢他的经历，有点同情以及___……</p></li><li><p>phira就随便玩的，纯菜鸟，干啥啥不行</p></li><li><p>我不喜欢过于严格的条条框框，不喜欢一些繁琐而无用的礼仪，反对形式主义……</p></li><li><p>喜欢读课外书，但必读书目除外；喜欢学习，学校除外</p></li><li><p>不喜欢这种被迫的、无法选择的、日复一日且枯燥的学习</p></li><li><p>天天白日梦，现实……咳咳</p></li><li><p>管你男的女的，和的来就行</p></li><li><p>……</p></li></ul><p>想到就写的，后来会补充</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;寻知音&quot;&gt;&lt;a href=&quot;#寻知音&quot; class=&quot;headerlink&quot; title=&quot;寻知音&quot;&gt;&lt;/a&gt;寻知音&lt;/h1&gt;&lt;hr&gt;
+&lt;h1 id=&quot;为什么：&quot;&gt;&lt;a href=&quot;#为什么：&quot; class=&quot;headerlink&quot; title=&quot;为什么：&quot;&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>如何在scratch简单实现拼音输入法</title>
@@ -165,9 +206,9 @@
     <link href="https://for-the-zero.github.io/2023/01/14/%E5%85%B3%E4%BA%8E/"/>
     <id>https://for-the-zero.github.io/2023/01/14/%E5%85%B3%E4%BA%8E/</id>
     <published>2023-01-14T06:46:00.000Z</published>
-    <updated>2023-05-01T14:30:48.195Z</updated>
+    <updated>2023-07-13T11:30:17.756Z</updated>
     
-    <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只中学牲</th><th align="center">——————–</th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python(边写边学)<br>html(不怎么会)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/01/12/Test-1/">上一篇</a></p>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只中学牲</th><th align="center">——————–</th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python(边写边学)<br>html(不怎么会)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/01/12/Test-1/">上一篇</a>和<a href="/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/">这篇</a></p>]]></content>
     
     
       
