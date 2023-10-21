@@ -1,3 +1,4 @@
+https://for-the-zero.github.io/2023/10/21/pincopy/
 https://for-the-zero.github.io/2023/08/27/The-World/
 https://for-the-zero.github.io/2023/08/29/tttpro/
 https://for-the-zero.github.io/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/
@@ -12,10 +13,10 @@ https://for-the-zero.github.io/about/index.html
 https://for-the-zero.github.io/2023/05/01/%E6%B2%A1%E6%9C%89%E6%89%8B%E6%9C%BA%E5%8F%B7%EF%BC%9F%E6%95%99%E4%BD%A0%E7%8E%A9%E4%B8%8AchatGPT/
 https://for-the-zero.github.io/2023/01/12/Test-1/
 https://for-the-zero.github.io/
+https://for-the-zero.github.io/tags/%E5%85%B6%E4%BB%96/
 https://for-the-zero.github.io/tags/Python/
 https://for-the-zero.github.io/tags/Dev/
 https://for-the-zero.github.io/tags/%E6%96%87%E7%AB%A0/
-https://for-the-zero.github.io/tags/%E5%85%B6%E4%BB%96/
 https://for-the-zero.github.io/tags/%E5%85%B6%E5%AE%83/
 https://for-the-zero.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/
 https://for-the-zero.github.io/tags/%E6%95%99%E7%A8%8B/
@@ -23,8 +24,8 @@ https://for-the-zero.github.io/tags/%E8%AE%B0%E5%BD%95/
 https://for-the-zero.github.io/tags/%E5%85%B3%E4%BA%8E/
 https://for-the-zero.github.io/tags/%E7%A7%91%E6%8A%80/
 https://for-the-zero.github.io/tags/chatGPT/
-https://for-the-zero.github.io/categories/Dev/
 https://for-the-zero.github.io/categories/%E5%85%B6%E4%BB%96/
+https://for-the-zero.github.io/categories/Dev/
 https://for-the-zero.github.io/categories/%E8%AE%BE%E5%AE%9A/
 https://for-the-zero.github.io/categories/%E8%AE%BE%E5%AE%9A/%E5%85%B6%E5%AE%83/
 https://for-the-zero.github.io/categories/%E5%85%B6%E5%AE%83/
