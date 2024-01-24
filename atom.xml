@@ -6,7 +6,7 @@
   <link href="https://for-the-zero.github.io/atom.xml" rel="self"/>
   
   <link href="https://for-the-zero.github.io/"/>
-  <updated>2024-01-23T08:39:52.317Z</updated>
+  <updated>2024-01-24T09:41:46.128Z</updated>
   <id>https://for-the-zero.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个提取手机apk的玩意</title>
+    <link href="https://for-the-zero.github.io/2024/01/24/%E4%B8%80%E4%B8%AA%E6%8F%90%E5%8F%96%E6%89%8B%E6%9C%BAapk%E7%9A%84%E7%8E%A9%E6%84%8F/"/>
+    <id>https://for-the-zero.github.io/2024/01/24/%E4%B8%80%E4%B8%AA%E6%8F%90%E5%8F%96%E6%89%8B%E6%9C%BAapk%E7%9A%84%E7%8E%A9%E6%84%8F/</id>
+    <published>2024-01-24T09:40:00.000Z</published>
+    <updated>2024-01-24T09:41:46.128Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="apkget"><a href="#apkget" class="headerlink" title="apkget"></a>apkget</h1><p>又是个Python+adb的项目</p><p>自己有需求&#x3D;&#x3D;&gt;立项&#x3D;&#x3D;&gt;开干</p><p>练练手，没什么不好</p><hr><p>用了flet做ui（原本想用dpg的，那玩意有点问题，看上一篇文章，但是他的字体也有点问题），subprocess+os运行adb指令，re解析输出</p><hr><p>长这样，默认窗口有点大（在我的电脑上），不知道咋调（文档里没找到）</p><p><img src="/img/2024-01-24-16-10-11-image.png"></p><p>只需要点一下刷新，稍等一会</p><p><img src="/img/2024-01-24-17-32-11-image.png"></p><p>这期间发生了什么呢</p><p>首先用adb获取所有应用的安装包链接</p><p>然后推送aapt-arm-pie到手机，用于解析apk</p><p>运行aapt，获取应用名和包名</p><p>竟然没有能够直接获取软件名的adb命令，只能这样了，这个过程会有点久，手机也会突然较高占用，不卡</p><p>然后删除aapt-arm-pie</p><hr><p>点击更改导出路径，可以选择任意目录导出</p><p>先从手机拉取apk到电脑上，就会有一个base.apk文件</p><p>再重命名一下就行了</p><p><img src="/img/2024-01-24-17-38-06-image.png"></p><p>非常简单</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;apkget&quot;&gt;&lt;a href=&quot;#apkget&quot; class=&quot;headerlink&quot; title=&quot;apkget&quot;&gt;&lt;/a&gt;apkget&lt;/h1&gt;&lt;p&gt;又是个Python+adb的项目&lt;/p&gt;
+&lt;p&gt;自己有需求&amp;#x3D;&amp;#x3D;&amp;gt;立项&amp;#x3D;&amp;</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://for-the-zero.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Python" scheme="https://for-the-zero.github.io/tags/Python/"/>
+    
+    <category term="Dev" scheme="https://for-the-zero.github.io/tags/Dev/"/>
+    
+  </entry>
   
   <entry>
     <title>发现bug，连甩两层锅</title>

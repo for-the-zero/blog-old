@@ -16,21 +16,37 @@
   <meta name="author" content="for_the_zero">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="分类">
-<meta property="og:url" content="https://for-the-zero.github.io/categories/index.html">
+    <meta name="description" content="apkget又是个Python+adb的项目 自己有需求&#x3D;&#x3D;&gt;立项&#x3D;&#x3D;&gt;开干 练练手，没什么不好  用了flet做ui（原本想用dpg的，那玩意有点问题，看上一篇文章，但是他的字体也有点问题），subprocess+os运行adb指令，re解析输出  长这样，默认窗口有点大（在我的电脑上），不知道咋调（文档里没找到）  只需要点一下刷新，稍等一会">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一个提取手机apk的玩意">
+<meta property="og:url" content="https://for-the-zero.github.io/2024/01/24/%E4%B8%80%E4%B8%AA%E6%8F%90%E5%8F%96%E6%89%8B%E6%9C%BAapk%E7%9A%84%E7%8E%A9%E6%84%8F/index.html">
 <meta property="og:site_name" content="for_the_zero 的破站">
+<meta property="og:description" content="apkget又是个Python+adb的项目 自己有需求&#x3D;&#x3D;&gt;立项&#x3D;&#x3D;&gt;开干 练练手，没什么不好  用了flet做ui（原本想用dpg的，那玩意有点问题，看上一篇文章，但是他的字体也有点问题），subprocess+os运行adb指令，re解析输出  长这样，默认窗口有点大（在我的电脑上），不知道咋调（文档里没找到）  只需要点一下刷新，稍等一会">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://for-the-zero.github.io/img/2024-01-24-16-10-11-image.png">
+<meta property="og:image" content="https://for-the-zero.github.io/img/2024-01-24-17-32-11-image.png">
+<meta property="og:image" content="https://for-the-zero.github.io/img/2024-01-24-17-38-06-image.png">
+<meta property="article:published_time" content="2024-01-24T09:40:00.000Z">
+<meta property="article:modified_time" content="2024-01-24T09:41:46.128Z">
 <meta property="article:author" content="for_the_zero">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="Dev">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://for-the-zero.github.io/img/2024-01-24-16-10-11-image.png">
   
   
   
-  <title>分类 | for_the_zero 的破站</title>
+  <title>一个提取手机apk的玩意 | for_the_zero 的破站</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -81,7 +97,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -211,9 +227,40 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="分类"></span>
+            <span id="subtitle" data-typed-text="一个提取手机apk的玩意"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-01-24 17:40" pubdate>
+          2024年1月24日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          386 字
+        
+      </span>
+    
+
+    
+
+    
+    
+  </div>
+
 
         
       </div>
@@ -229,324 +276,164 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">一个提取手机apk的玩意</h1>
+            
+            
+              <div class="markdown-body">
                 
+                <h1 id="apkget"><a href="#apkget" class="headerlink" title="apkget"></a>apkget</h1><p>又是个Python+adb的项目</p>
+<p>自己有需求&#x3D;&#x3D;&gt;立项&#x3D;&#x3D;&gt;开干</p>
+<p>练练手，没什么不好</p>
+<hr>
+<p>用了flet做ui（原本想用dpg的，那玩意有点问题，看上一篇文章，但是他的字体也有点问题），subprocess+os运行adb指令，re解析输出</p>
+<hr>
+<p>长这样，默认窗口有点大（在我的电脑上），不知道咋调（文档里没找到）</p>
+<p><img src="/img/2024-01-24-16-10-11-image.png" srcset="/img/loading.gif" lazyload></p>
+<p>只需要点一下刷新，稍等一会</p>
+<p><img src="/img/2024-01-24-17-32-11-image.png" srcset="/img/loading.gif" lazyload></p>
+<p>这期间发生了什么呢</p>
+<p>首先用adb获取所有应用的安装包链接</p>
+<p>然后推送aapt-arm-pie到手机，用于解析apk</p>
+<p>运行aapt，获取应用名和包名</p>
+<p>竟然没有能够直接获取软件名的adb命令，只能这样了，这个过程会有点久，手机也会突然较高占用，不卡</p>
+<p>然后删除aapt-arm-pie</p>
+<hr>
+<p>点击更改导出路径，可以选择任意目录导出</p>
+<p>先从手机拉取apk到电脑上，就会有一个base.apk文件</p>
+<p>再重命名一下就行了</p>
+<p><img src="/img/2024-01-24-17-38-06-image.png" srcset="/img/loading.gif" lazyload></p>
+<p>非常简单</p>
 
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
 
-
-
-
-<div class="category-list">
+<span class="category-chains">
   
   
     
-    
-    
-    <div class="category row nomargin-x">
-      <a class="category-item collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="技术"
-        id="heading-a95dd3e179418be1ecd2a719a22db70e" role="tab" data-toggle="collapse" href="#collapse-a95dd3e179418be1ecd2a719a22db70e"
-        aria-expanded="false"
-      >
-        技术
-        <span class="list-group-count"></span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-        <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category-count col-2 col-md-1 col-xm-1">
-          <i class="iconfont icon-articles"></i>
-          <span>10</span>
-        </a>
-      
-      <div class="category-collapse collapse " id="collapse-a95dd3e179418be1ecd2a719a22db70e"
-           role="tabpanel" aria-labelledby="heading-a95dd3e179418be1ecd2a719a22db70e">
+      <span class="category-chain">
         
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/2024/01/24/%E4%B8%80%E4%B8%AA%E6%8F%90%E5%8F%96%E6%89%8B%E6%9C%BAapk%E7%9A%84%E7%8E%A9%E6%84%8F/" title="一个提取手机apk的玩意"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">一个提取手机apk的玩意</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2024/01/23/%E4%B8%80%E5%AE%9A%E6%98%AFImgui%E5%B9%B2%E7%9A%84%EF%BC%81/" title="发现bug，连甩两层锅"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">发现bug，连甩两层锅</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2024/01/20/adb-python-%E7%8A%B6%E6%80%81%E7%9B%91%E6%8E%A7/" title="一个手机硬件状态监控的玩意"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">一个手机硬件状态监控的玩意</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2024/01/20/%E5%85%B3%E6%B3%A8AB%E8%A7%86%E9%A2%91%E6%9B%B4%E6%96%B0/" title="AlanBecker视频列表：关注视频更新动态！"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">AlanBecker视频列表：关注视频更新动态！</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2024/01/20/%E5%81%9A%E4%BA%86%E4%B8%AA%E5%8F%ABPinCopy%E7%9A%84%E7%8E%A9%E6%84%8F/" title="做了个叫PinCopy的玩意"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">做了个叫PinCopy的玩意</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2024/01/20/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%89%8D%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AADNA%E6%89%93%E7%BB%93%E7%9A%84%E4%B8%9C%E8%A5%BF/" title="一段时间前做了一个DNA打结的东西"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">一段时间前做了一个DNA打结的东西</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/08/29/tttpro/" title="记一下自己写tttpro"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">记一下自己写tttpro</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/07/13/%E5%9C%A8scratch%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%BA%AF%E7%94%BB%E7%AC%94%E6%8E%92%E7%89%88/" title="在scratch实现简单纯画笔排版"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">在scratch实现简单纯画笔排版</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/07/02/scil/" title="如何在scratch简单实现拼音输入法"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">如何在scratch简单实现拼音输入法</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/01/14/DearPyGui%E7%AC%94%E8%AE%B0/" title="DearPyGui笔记"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">DearPyGui笔记</span>
-        </a>
-      
-    
-  </div>
+  <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category-chain-item">技术</a>
+  
+  
 
-        
-      </div>
+      </span>
+    
+  
+</span>
+
     </div>
   
-    
-    
-    
-    <div class="category row nomargin-x">
-      <a class="category-item collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="其他"
-        id="heading-0d98c74797e49d00bcc4c17c9d557a2b" role="tab" data-toggle="collapse" href="#collapse-0d98c74797e49d00bcc4c17c9d557a2b"
-        aria-expanded="false"
-      >
-        其他
-        <span class="list-group-count"></span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-        <a href="/categories/%E5%85%B6%E4%BB%96/" class="category-count col-2 col-md-1 col-xm-1">
-          <i class="iconfont icon-articles"></i>
-          <span>4</span>
-        </a>
-      
-      <div class="category-collapse collapse " id="collapse-0d98c74797e49d00bcc4c17c9d557a2b"
-           role="tabpanel" aria-labelledby="heading-0d98c74797e49d00bcc4c17c9d557a2b">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/2024/01/19/%E6%89%B9%E5%88%A4/" title="一点危险的想法"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">一点危险的想法</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/11/05/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3%EF%BC%9A%E8%AE%BE%E5%AE%9A/" title="胡思乱想：设定"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">胡思乱想：设定</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/05/01/talking/" title="想法"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">想法</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/01/15/%E4%B8%80%E4%B8%AA%E8%BF%B7%E5%AE%AB%E7%9A%84%E4%BB%8B%E7%BB%8D/" title="一种迷宫的介绍"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">一种迷宫的介绍</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
   
-    
-    
-    
-    <div class="category row nomargin-x">
-      <a class="category-item collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="站点"
-        id="heading-236ed6c03bddd88d400b67074d8d8458" role="tab" data-toggle="collapse" href="#collapse-236ed6c03bddd88d400b67074d8d8458"
-        aria-expanded="false"
-      >
-        站点
-        <span class="list-group-count"></span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
       
-        <a href="/categories/%E7%AB%99%E7%82%B9/" class="category-count col-2 col-md-1 col-xm-1">
-          <i class="iconfont icon-articles"></i>
-          <span>2</span>
-        </a>
+        <a href="/tags/Python/" class="print-no-link">#Python</a>
       
-      <div class="category-collapse collapse " id="collapse-236ed6c03bddd88d400b67074d8d8458"
-           role="tabpanel" aria-labelledby="heading-236ed6c03bddd88d400b67074d8d8458">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
+        <a href="/tags/Dev/" class="print-no-link">#Dev</a>
       
-      
-        <a href="/2023/01/14/%E5%85%B3%E4%BA%8E/" title="关于"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">关于</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/01/12/Test-1/" title="终于搭好了"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">终于搭好了</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div class="category row nomargin-x">
-      <a class="category-item collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="自己"
-        id="heading-0c105e7ca06001266131ab1c0c350bc1" role="tab" data-toggle="collapse" href="#collapse-0c105e7ca06001266131ab1c0c350bc1"
-        aria-expanded="false"
-      >
-        自己
-        <span class="list-group-count"></span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-        <a href="/categories/%E8%87%AA%E5%B7%B1/" class="category-count col-2 col-md-1 col-xm-1">
-          <i class="iconfont icon-articles"></i>
-          <span>2</span>
-        </a>
-      
-      <div class="category-collapse collapse " id="collapse-0c105e7ca06001266131ab1c0c350bc1"
-           role="tabpanel" aria-labelledby="heading-0c105e7ca06001266131ab1c0c350bc1">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/" title="来交个友吧"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">来交个友吧</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/05/02/%E8%87%AA%E8%BF%B0/" title="自述"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">自述</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
     </div>
   
 </div>
 
 
-              </div>
+              
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/01/23/%E4%B8%80%E5%AE%9A%E6%98%AFImgui%E5%B9%B2%E7%9A%84%EF%BC%81/" title="发现bug，连甩两层锅">
+                        <span class="hidden-mobile">发现bug，连甩两层锅</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
             </div>
-          </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
     
 
     
@@ -640,6 +527,99 @@
 
 
 
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 
