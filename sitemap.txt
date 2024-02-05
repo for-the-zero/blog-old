@@ -1,3 +1,5 @@
+https://for-the-zero.github.io/2024/02/05/LLM%E5%AF%B9%E6%AF%94/
+https://for-the-zero.github.io/2024/02/05/%E7%9B%B8%E6%9C%BA%E7%AE%97%E6%B3%95%E5%AF%B9%E6%AF%94/
 https://for-the-zero.github.io/2024/01/24/%E4%B8%80%E4%B8%AA%E6%8F%90%E5%8F%96%E6%89%8B%E6%9C%BAapk%E7%9A%84%E7%8E%A9%E6%84%8F/
 https://for-the-zero.github.io/2024/01/23/%E4%B8%80%E5%AE%9A%E6%98%AFImgui%E5%B9%B2%E7%9A%84%EF%BC%81/
 https://for-the-zero.github.io/2023/05/02/%E8%87%AA%E8%BF%B0/
@@ -20,6 +22,8 @@ https://for-the-zero.github.io/about/index.html
 https://for-the-zero.github.io/
 https://for-the-zero.github.io/tags/Python/
 https://for-the-zero.github.io/tags/Dev/
+https://for-the-zero.github.io/tags/%E6%8B%8D%E7%85%A7/
+https://for-the-zero.github.io/tags/LLM/
 https://for-the-zero.github.io/categories/%E5%85%B6%E4%BB%96/
 https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/
 https://for-the-zero.github.io/categories/%E6%8A%80%E6%9C%AF/
