@@ -6,7 +6,7 @@
   <link href="https://for-the-zero.github.io/atom.xml" rel="self"/>
   
   <link href="https://for-the-zero.github.io/"/>
-  <updated>2024-05-05T02:37:43.742Z</updated>
+  <updated>2024-06-10T04:20:50.720Z</updated>
   <id>https://for-the-zero.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>换了个头像</title>
+    <link href="https://for-the-zero.github.io/2024/06/10/avatar/"/>
+    <id>https://for-the-zero.github.io/2024/06/10/avatar/</id>
+    <published>2024-06-10T04:09:00.000Z</published>
+    <updated>2024-06-10T04:20:50.720Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的旧头像：</p><p><img src="/img/oldavatar.png"></p><p>非常好看，对吧</p><p>你看啊，一个¾的圈，是名称里的f<strong>o</strong>r_th<strong>e</strong>_z<strong>e</strong>r<strong>o</strong>，这几个字母重叠的部分就是一个约7&#x2F;8的圈，为了好看，缩减了一下，就是¾了，而且e也可以那样写对吧</p><p>知道我看到了这个</p><p><img src="/Screenshot_2024_0610_120605.png"></p><p>啊？</p><p>很快啊，我做了新的头像</p><p><img src="/img/avatar.png"></p><p>这是一个圈，但是图片的¼是反射的，这个是有含义的，但我不想说</p><p><del>万物皆可解读是吧</del></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是我的旧头像：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/oldavatar.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;非常好看，对吧&lt;/p&gt;
+&lt;p&gt;你看啊，一个¾的圈，是名称里的f&lt;strong&gt;o&lt;/strong&gt;r_th&lt;strong&gt;e&lt;/strong&gt;_z&lt;strong&gt;e&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="自己" scheme="https://for-the-zero.github.io/tags/%E8%87%AA%E5%B7%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>第一批Quicktools小工具来啦</title>
@@ -496,33 +521,6 @@
     <category term="Python" scheme="https://for-the-zero.github.io/tags/Python/"/>
     
     <category term="Dev" scheme="https://for-the-zero.github.io/tags/Dev/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于</title>
-    <link href="https://for-the-zero.github.io/2023/01/14/%E5%85%B3%E4%BA%8E/"/>
-    <id>https://for-the-zero.github.io/2023/01/14/%E5%85%B3%E4%BA%8E/</id>
-    <published>2023-01-14T06:46:00.000Z</published>
-    <updated>2024-01-20T15:25:17.707Z</updated>
-    
-    <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只中学牲</th><th align="center">——————–</th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python(边写边学)<br>html(不怎么会)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/01/12/Test-1/">上一篇</a>和<a href="/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/">这篇</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;&lt;img src=&quot;/img/avatar.png&quot;&gt;&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;for_the_zero&lt;br&gt;我，站长&lt;br&gt;一只中学牲&lt;/th&gt;
-&lt;th align=&quot;ce</summary>
-      
-    
-    
-    
-    <category term="站点" scheme="https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/"/>
-    
     
   </entry>
   
