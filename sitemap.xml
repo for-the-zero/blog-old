@@ -211,7 +211,7 @@
 
   <url>
     <loc>https://for-the-zero.github.io/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -219,42 +219,42 @@
   
   <url>
     <loc>https://for-the-zero.github.io/tags/Python/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/Dev/</loc>
-    <lastmod>2024-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://for-the-zero.github.io/tags/%E6%8B%8D%E7%85%A7/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/LLM/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/H5/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/tags/%E8%87%AA%E5%B7%B1/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://for-the-zero.github.io/tags/%E6%8B%8D%E7%85%A7/</loc>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -262,29 +262,29 @@
 
   
   <url>
-    <loc>https://for-the-zero.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <loc>https://for-the-zero.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://for-the-zero.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <loc>https://for-the-zero.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://for-the-zero.github.io/categories/%E8%87%AA%E5%B7%B1/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
