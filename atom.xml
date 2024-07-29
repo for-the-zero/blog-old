@@ -6,7 +6,7 @@
   <link href="https://for-the-zero.github.io/atom.xml" rel="self"/>
   
   <link href="https://for-the-zero.github.io/"/>
-  <updated>2024-06-10T07:14:59.899Z</updated>
+  <updated>2024-05-05T02:37:43.742Z</updated>
   <id>https://for-the-zero.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>换了个头像</title>
-    <link href="https://for-the-zero.github.io/2024/06/10/avatar/"/>
-    <id>https://for-the-zero.github.io/2024/06/10/avatar/</id>
-    <published>2024-06-10T04:09:00.000Z</published>
-    <updated>2024-06-10T07:14:59.899Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是我的旧头像：</p><p><img src="/img/oldavatar.png"></p><p>非常好看，对吧</p><p>你看啊，一个¾的圈，是名称里的f<strong>o</strong>r_th<strong>e</strong>_z<strong>e</strong>r<strong>o</strong>，这几个字母重叠的部分就是一个约7&#x2F;8的圈，为了好看，缩减了一下，就是¾了，而且e也可以那样写对吧</p><p>知道我看到了这个</p><p><img src="/img/Screenshot_2024_0610_120605.png"></p><p>啊？</p><p>很快啊，我做了新的头像</p><p><img src="/img/avatar.png"></p><p>这是一个圈，但是图片的¼是反色的，这个是有含义的，但我不想说</p><p><del>万物皆可解读是吧</del></p><p>欸，上传了几遍怎么新头像显示不出来的</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这是我的旧头像：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/oldavatar.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;非常好看，对吧&lt;/p&gt;
-&lt;p&gt;你看啊，一个¾的圈，是名称里的f&lt;strong&gt;o&lt;/strong&gt;r_th&lt;strong&gt;e&lt;/strong&gt;_z&lt;strong&gt;e&lt;</summary>
-      
-    
-    
-    
-    
-    <category term="自己" scheme="https://for-the-zero.github.io/tags/%E8%87%AA%E5%B7%B1/"/>
-    
-  </entry>
   
   <entry>
     <title>第一批Quicktools小工具来啦</title>
@@ -231,19 +206,19 @@
   </entry>
   
   <entry>
-    <title>一段时间前做了一个DNA打结的东西</title>
-    <link href="https://for-the-zero.github.io/2024/01/20/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%89%8D%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AADNA%E6%89%93%E7%BB%93%E7%9A%84%E4%B8%9C%E8%A5%BF/"/>
-    <id>https://for-the-zero.github.io/2024/01/20/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%89%8D%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AADNA%E6%89%93%E7%BB%93%E7%9A%84%E4%B8%9C%E8%A5%BF/</id>
+    <title>做了个叫PinCopy的玩意</title>
+    <link href="https://for-the-zero.github.io/2024/01/20/%E5%81%9A%E4%BA%86%E4%B8%AA%E5%8F%ABPinCopy%E7%9A%84%E7%8E%A9%E6%84%8F/"/>
+    <id>https://for-the-zero.github.io/2024/01/20/%E5%81%9A%E4%BA%86%E4%B8%AA%E5%8F%ABPinCopy%E7%9A%84%E7%8E%A9%E6%84%8F/</id>
     <published>2024-01-20T15:17:00.000Z</published>
-    <updated>2024-01-20T15:28:22.155Z</updated>
+    <updated>2024-01-20T15:28:07.258Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="DNA打结器"><a href="#DNA打结器" class="headerlink" title="DNA打结器"></a>DNA打结器</h1><p>一共两个</p><p>语文版：<a href="https://github.com/for-the-zero/practice.zip/tree/main/py/mixmem">mixmem</a></p><p>化学版：<a href="https://github.com/for-the-zero/practice.zip/blob/main/py/other/tiedna.py">tiedna</a></p><p>用的技术不一样</p><hr><h1 id="MixMem"><a href="#MixMem" class="headerlink" title="MixMem"></a>MixMem</h1><p>从网上忘了哪里把初中古诗词搞了过来，写了个已经删掉了的程序根据符号分段成了一行一句</p><p>话说那个崽是没有强迫症吗，大多数用<code>，</code>，少数用<code>,</code>，再加上古诗词本来就有的其他符号，给我增工作量呢，滚动条拖着拖着就发现有几行特别长，一看就是没有正确分句，就这个弄了一段时间</p><p>其他不难，随手做的，练习一下，顺便试试新东西——Flet</p><p>这是我找到的有一个GUI框架，是用Flutter显示的，API还算友好<del>（感觉不如dpg）</del>，就喜欢这种，随手做了一下</p><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>解：如图所示</p><p><img src="/img/2024-01-20-20-05-35-image.png"></p><p>你可以选择仅五个字的诗句、仅七个字的、没有限制的</p><p>可以选择生成1~100个诗句</p><p><del>一句的话……还挺适合复习的</del></p><p>Come On一下，就能生成</p><p>就像这样：</p><p><img src="/img/2024-01-20-20-07-50-image.png"></p><p>你可以选中文本复制</p><blockquote><p>有吏夜捉人。</p><p>如闻泣幽咽。</p></blockquote><p>你会发现很多奇妙的组合</p><hr><h1 id="TieDNA"><a href="#TieDNA" class="headerlink" title="TieDNA"></a>TieDNA</h1><p>这个就没那么复杂了，随便做的</p><p><del>（挺像那个乱用主谓宾的小游戏啊）</del></p><p>命令行显示 + msvcrt检测按键</p><p>运行时按不同的按键有不同的句式</p><p><img src="/img/2024-01-20-20-11-53-image.png"></p><p>（图中7个是1模式，7个是2模式，7个是3模式，7个是4模式，）</p><p>离谱就对了</p><p><del>（不会有人不知道n是名词v是动词吧）</del></p><p>你会发现很多奇怪的组合</p><blockquote><p>用天平把化学实验室砸坏<br>用化学老师把白磷被吃掉</p></blockquote><p>我特意写了<code>立即发生爆炸</code> <code>化学实验室</code> <code>化学老师</code> </p><p>十分的有趣啊~</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="PinCopy"><a href="#PinCopy" class="headerlink" title="PinCopy"></a>PinCopy</h1><p>自己做的一个小工具，但是没什么用，是一个简易剪贴板临时存储器</p><p><a href="https://github.com/for-the-zero/pincopy">GitHub - for-the-zero&#x2F;pincopy</a></p><p>文件不多，字体和主程序</p><p>长这样</p><p><img src="/img/2024-01-20-19-49-40-image.png"></p><p><del>懒得裁了，直接放吧</del></p><p>用了pyperclip操控剪贴板，pyautogui搞一点特殊操作，dpg搞界面</p><p>可以获取剪贴板，把内容临时加到列表中（仅限文字），可以随时删除</p><p>复制指点击内容对应的按钮后复制到剪贴板，模式有两个，一个仅复制，一个在你按下之后快速地alt+tab再ctrl+v再alt+tab，就可以快速连续自动粘贴了，很聪明对吧   <del>聪明个鬼</del></p><p>自动粘贴就是可以在你复制文本之后直接把内容粘贴到列表中，就不用回来手动点了</p><p>关掉程序，内容直接没了，懒得搞存储</p><p>不然怎么叫“<strong>临时</strong>”呢</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;DNA打结器&quot;&gt;&lt;a href=&quot;#DNA打结器&quot; class=&quot;headerlink&quot; title=&quot;DNA打结器&quot;&gt;&lt;/a&gt;DNA打结器&lt;/h1&gt;&lt;p&gt;一共两个&lt;/p&gt;
-&lt;p&gt;语文版：&lt;a href=&quot;https://github.com/for-the-ze</summary>
+    <summary type="html">&lt;h1 id=&quot;PinCopy&quot;&gt;&lt;a href=&quot;#PinCopy&quot; class=&quot;headerlink&quot; title=&quot;PinCopy&quot;&gt;&lt;/a&gt;PinCopy&lt;/h1&gt;&lt;p&gt;自己做的一个小工具，但是没什么用，是一个简易剪贴板临时存储器&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;htt</summary>
       
     
     
@@ -258,19 +233,19 @@
   </entry>
   
   <entry>
-    <title>做了个叫PinCopy的玩意</title>
-    <link href="https://for-the-zero.github.io/2024/01/20/%E5%81%9A%E4%BA%86%E4%B8%AA%E5%8F%ABPinCopy%E7%9A%84%E7%8E%A9%E6%84%8F/"/>
-    <id>https://for-the-zero.github.io/2024/01/20/%E5%81%9A%E4%BA%86%E4%B8%AA%E5%8F%ABPinCopy%E7%9A%84%E7%8E%A9%E6%84%8F/</id>
+    <title>一段时间前做了一个DNA打结的东西</title>
+    <link href="https://for-the-zero.github.io/2024/01/20/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%89%8D%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AADNA%E6%89%93%E7%BB%93%E7%9A%84%E4%B8%9C%E8%A5%BF/"/>
+    <id>https://for-the-zero.github.io/2024/01/20/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%89%8D%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AADNA%E6%89%93%E7%BB%93%E7%9A%84%E4%B8%9C%E8%A5%BF/</id>
     <published>2024-01-20T15:17:00.000Z</published>
-    <updated>2024-01-20T15:28:07.258Z</updated>
+    <updated>2024-01-20T15:28:22.155Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="PinCopy"><a href="#PinCopy" class="headerlink" title="PinCopy"></a>PinCopy</h1><p>自己做的一个小工具，但是没什么用，是一个简易剪贴板临时存储器</p><p><a href="https://github.com/for-the-zero/pincopy">GitHub - for-the-zero&#x2F;pincopy</a></p><p>文件不多，字体和主程序</p><p>长这样</p><p><img src="/img/2024-01-20-19-49-40-image.png"></p><p><del>懒得裁了，直接放吧</del></p><p>用了pyperclip操控剪贴板，pyautogui搞一点特殊操作，dpg搞界面</p><p>可以获取剪贴板，把内容临时加到列表中（仅限文字），可以随时删除</p><p>复制指点击内容对应的按钮后复制到剪贴板，模式有两个，一个仅复制，一个在你按下之后快速地alt+tab再ctrl+v再alt+tab，就可以快速连续自动粘贴了，很聪明对吧   <del>聪明个鬼</del></p><p>自动粘贴就是可以在你复制文本之后直接把内容粘贴到列表中，就不用回来手动点了</p><p>关掉程序，内容直接没了，懒得搞存储</p><p>不然怎么叫“<strong>临时</strong>”呢</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="DNA打结器"><a href="#DNA打结器" class="headerlink" title="DNA打结器"></a>DNA打结器</h1><p>一共两个</p><p>语文版：<a href="https://github.com/for-the-zero/practice.zip/tree/main/py/mixmem">mixmem</a></p><p>化学版：<a href="https://github.com/for-the-zero/practice.zip/blob/main/py/other/tiedna.py">tiedna</a></p><p>用的技术不一样</p><hr><h1 id="MixMem"><a href="#MixMem" class="headerlink" title="MixMem"></a>MixMem</h1><p>从网上忘了哪里把初中古诗词搞了过来，写了个已经删掉了的程序根据符号分段成了一行一句</p><p>话说那个崽是没有强迫症吗，大多数用<code>，</code>，少数用<code>,</code>，再加上古诗词本来就有的其他符号，给我增工作量呢，滚动条拖着拖着就发现有几行特别长，一看就是没有正确分句，就这个弄了一段时间</p><p>其他不难，随手做的，练习一下，顺便试试新东西——Flet</p><p>这是我找到的有一个GUI框架，是用Flutter显示的，API还算友好<del>（感觉不如dpg）</del>，就喜欢这种，随手做了一下</p><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>解：如图所示</p><p><img src="/img/2024-01-20-20-05-35-image.png"></p><p>你可以选择仅五个字的诗句、仅七个字的、没有限制的</p><p>可以选择生成1~100个诗句</p><p><del>一句的话……还挺适合复习的</del></p><p>Come On一下，就能生成</p><p>就像这样：</p><p><img src="/img/2024-01-20-20-07-50-image.png"></p><p>你可以选中文本复制</p><blockquote><p>有吏夜捉人。</p><p>如闻泣幽咽。</p></blockquote><p>你会发现很多奇妙的组合</p><hr><h1 id="TieDNA"><a href="#TieDNA" class="headerlink" title="TieDNA"></a>TieDNA</h1><p>这个就没那么复杂了，随便做的</p><p><del>（挺像那个乱用主谓宾的小游戏啊）</del></p><p>命令行显示 + msvcrt检测按键</p><p>运行时按不同的按键有不同的句式</p><p><img src="/img/2024-01-20-20-11-53-image.png"></p><p>（图中7个是1模式，7个是2模式，7个是3模式，7个是4模式，）</p><p>离谱就对了</p><p><del>（不会有人不知道n是名词v是动词吧）</del></p><p>你会发现很多奇怪的组合</p><blockquote><p>用天平把化学实验室砸坏<br>用化学老师把白磷被吃掉</p></blockquote><p>我特意写了<code>立即发生爆炸</code> <code>化学实验室</code> <code>化学老师</code> </p><p>十分的有趣啊~</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;PinCopy&quot;&gt;&lt;a href=&quot;#PinCopy&quot; class=&quot;headerlink&quot; title=&quot;PinCopy&quot;&gt;&lt;/a&gt;PinCopy&lt;/h1&gt;&lt;p&gt;自己做的一个小工具，但是没什么用，是一个简易剪贴板临时存储器&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;htt</summary>
+    <summary type="html">&lt;h1 id=&quot;DNA打结器&quot;&gt;&lt;a href=&quot;#DNA打结器&quot; class=&quot;headerlink&quot; title=&quot;DNA打结器&quot;&gt;&lt;/a&gt;DNA打结器&lt;/h1&gt;&lt;p&gt;一共两个&lt;/p&gt;
+&lt;p&gt;语文版：&lt;a href=&quot;https://github.com/for-the-ze</summary>
       
     
     
@@ -521,6 +496,33 @@
     <category term="Python" scheme="https://for-the-zero.github.io/tags/Python/"/>
     
     <category term="Dev" scheme="https://for-the-zero.github.io/tags/Dev/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于</title>
+    <link href="https://for-the-zero.github.io/2023/01/14/%E5%85%B3%E4%BA%8E/"/>
+    <id>https://for-the-zero.github.io/2023/01/14/%E5%85%B3%E4%BA%8E/</id>
+    <published>2023-01-14T06:46:00.000Z</published>
+    <updated>2024-01-20T15:25:17.707Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只中学牲</th><th align="center">——————–</th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python(边写边学)<br>html(不怎么会)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/01/12/Test-1/">上一篇</a>和<a href="/2023/07/13/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/">这篇</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;img src=&quot;/img/avatar.png&quot;&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;for_the_zero&lt;br&gt;我，站长&lt;br&gt;一只中学牲&lt;/th&gt;
+&lt;th align=&quot;ce</summary>
+      
+    
+    
+    
+    <category term="站点" scheme="https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/"/>
+    
     
   </entry>
   

@@ -1,4 +1,3 @@
-https://for-the-zero.github.io/2024/06/10/avatar/
 https://for-the-zero.github.io/2024/05/05/Quicktools1/
 https://for-the-zero.github.io/2024/02/05/LLM%E5%AF%B9%E6%AF%94/
 https://for-the-zero.github.io/2024/02/05/%E7%9B%B8%E6%9C%BA%E7%AE%97%E6%B3%95%E5%AF%B9%E6%AF%94/
@@ -26,7 +25,6 @@ https://for-the-zero.github.io/tags/Python/
 https://for-the-zero.github.io/tags/Dev/
 https://for-the-zero.github.io/tags/LLM/
 https://for-the-zero.github.io/tags/H5/
-https://for-the-zero.github.io/tags/%E8%87%AA%E5%B7%B1/
 https://for-the-zero.github.io/tags/%E6%8B%8D%E7%85%A7/
 https://for-the-zero.github.io/categories/%E6%8A%80%E6%9C%AF/
 https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/
