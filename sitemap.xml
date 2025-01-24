@@ -92,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://for-the-zero.github.io/2023/Test-1/</loc>
-    
-    <lastmod>2024-08-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://for-the-zero.github.io/2024/CapsTools/</loc>
     
     <lastmod>2024-08-30</lastmod>
@@ -334,13 +325,6 @@
   </url>
   
   <url>
-    <loc>https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://for-the-zero.github.io/categories/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2025-01-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -349,6 +333,13 @@
   
   <url>
     <loc>https://for-the-zero.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://for-the-zero.github.io/categories/%E7%AB%99%E7%82%B9/</loc>
     <lastmod>2025-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
