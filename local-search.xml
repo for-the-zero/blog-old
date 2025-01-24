@@ -207,11 +207,11 @@
     
     <tags>
       
+      <tag>Python</tag>
+      
       <tag>Dev</tag>
       
       <tag>H5</tag>
-      
-      <tag>Python</tag>
       
     </tags>
     
@@ -286,9 +286,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -313,9 +313,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -340,9 +340,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -367,9 +367,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -394,9 +394,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -421,9 +421,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -486,9 +486,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -633,9 +633,9 @@
     
     <tags>
       
-      <tag>Dev</tag>
-      
       <tag>Python</tag>
+      
+      <tag>Dev</tag>
       
     </tags>
     
@@ -649,6 +649,25 @@
     <url>/2023/%E5%85%B3%E4%BA%8E/</url>
     
     <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只高中畜生</th><th align="center">——————–</th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python和h5(边写边学)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">推特（X）</td><td align="center">for_the_zero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/Test-1/">上一篇</a>和<a href="/2023/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/">这篇</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>站点</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>终于搭好了</title>
+    <link href="/2023/Test-1/"/>
+    <url>/2023/Test-1/</url>
+    
+    <content type="html"><![CDATA[<h4 id="终于把这玩意搭建好了"><a href="#终于把这玩意搭建好了" class="headerlink" title="终于把这玩意搭建好了"></a><strong>终于</strong>把这玩意搭建好了</h4><p>使用了Hexo和Github Pages</p><p>主题是fluid</p><hr><p>把这个弃用了的云盘网页放在这里吧<a href="https://for-the-zero.github.io/MyDrive">Github Pages</a></p>]]></content>
     
     
     <categories>

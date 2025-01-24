@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://for-the-zero.github.io/2023/Test-1/</loc>
+    
+    <lastmod>2025-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://for-the-zero.github.io/2025/Quicktools2/</loc>
     
     <lastmod>2025-01-24</lastmod>
@@ -281,6 +290,13 @@
 
   
   <url>
+    <loc>https://for-the-zero.github.io/tags/Python/</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://for-the-zero.github.io/tags/Dev/</loc>
     <lastmod>2025-01-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,13 +305,6 @@
   
   <url>
     <loc>https://for-the-zero.github.io/tags/H5/</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://for-the-zero.github.io/tags/Python/</loc>
     <lastmod>2025-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
