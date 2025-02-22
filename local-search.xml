@@ -4,7 +4,59 @@
   
   
   <entry>
-    <title>Quicktools第二弹来了！</title>
+    <title>把我以前写的设定发送给了LLM</title>
+    <link href="/2025/set2llm/"/>
+    <url>/2025/set2llm/</url>
+    
+    <content type="html"><![CDATA[<p>最近突发奇想，想到了把以前写的<a href="https://for-the-zero.github.io/TheSetting/">这个玩意</a>喂给AI看看</p><p>Claude说太长了，就没看</p><table><thead><tr><th align="left">模型</th><th align="center">图片</th><th align="center">图片</th></tr></thead><tbody><tr><td align="left"><a href="https://yuanbao.tencent.com/bot/app/share/chat/6dc8a61af4e5d6b8801ec274ea8d944c">Deepseek R1（由于官方版服务器繁忙，用了腾讯元宝的版本）</a></td><td align="center"><img src="/img/8b8d8c747190e650dede1bec8f21b2f18975ba41.jpg" alt="Screenshot_2025_0221_224627.jpg"></td><td align="center"><img src="/img/a6b3169e553a164723317ef40f48a4a008b9aa59.jpg" alt="Screenshot_2025_0221_225005.jpg"></td></tr><tr><td align="left"><a href="https://chat.qwenlm.ai/s/3777d527-a8c6-4cd0-8d40-31359bf0d7ee">Qwen-2.5-Max</a></td><td align="center"><img src="/img/7d25e50e4fe41dbcd428532fcd49c35de760f78b.jpg" alt="Screenshot_2025_0221_224224.jpg"></td><td align="center">-</td></tr><tr><td align="left"><a href="https://chatglm.cn/gdetail/alltools?is_share=1&share_by=65504475a98df0feb30a74cb&share_conversation_id=FrYHK&share_from=app">GLM Plus</a></td><td align="center"><img src="/img/67b6fb440b920eaf98eec0c739348129d4883e3e.jpg" alt="Screenshot_2025_0221_225350.jpg"></td><td align="center">-</td></tr><tr><td align="left">Gemini 2.0 Pro</td><td align="center"><img src="/img/ea856205b079a6a648fe06507875368ba3bacbad.jpg" alt="Screenshot_2025_0221_230010.jpg"></td><td align="center">-</td></tr><tr><td align="left">Gemini 2.0 Flash Thinking</td><td align="center"><img src="/img/d133f4114fe22fe0ae4843a7bc604d062b3abb2e.jpg" alt="Screenshot_2025_0221_230800.jpg"></td><td align="center"><img src="/img/9543189506630dda7f4815b989d54f193ccce2cb.jpg" alt="Screenshot_2025_0221_230853.jpg"></td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>文笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>LLM</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Quicktools第2.5弹 - 文本展示工具、UP主动态查看工具</title>
+    <link href="/2025/Quicktools2-5/"/>
+    <url>/2025/Quicktools2-5/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Quicktools第2-5弹：文本展示工具、UP主动态查看器"><a href="#Quicktools第2-5弹：文本展示工具、UP主动态查看器" class="headerlink" title="Quicktools第2.5弹：文本展示工具、UP主动态查看器"></a>Quicktools第2.5弹：文本展示工具、UP主动态查看器</h1><p>又来了又来了，我目前唯一一个会长期更新下去的项目</p><p>照样，先贴出链接 <a href="https://github.com/for-the-zero/quicktools">Github</a> <a href="https://for-the-zero.github.io/quicktools">GithubPages</a> <a href="https://ftz-tools.netlify.app/">Netlify</a></p><p><img src="/img/2025-02-21-22-53-22-image.png"></p><p>一共两个新工具（相较于上一弹）</p><hr><h2 id="文本展示"><a href="#文本展示" class="headerlink" title="文本展示"></a>文本展示</h2><p><img src="/img/2025-02-22-10-14-15-image.png"></p><p>功能很简单，都在图片里面了</p><p>启动之后带文本的窗口在新窗口打开</p><p><img src="/img/2025-02-22-10-17-33-image.png"></p><ul><li><p>当页面比例小于1:1的时候画面会竖过来</p></li><li><p>滚动模式会把所有内容放在一行滚动展示</p></li><li><p>自动调节字体大小，是的文本能够以尽量大的字体铺满屏幕</p></li></ul><hr><h2 id="动态查看器"><a href="#动态查看器" class="headerlink" title="动态查看器"></a>动态查看器</h2><p>单独开了一个<a href="https://github.com/for-the-zero/UpDyn">Github</a></p><p>这个才是重点！</p><p>想要在学校上电脑课的时候看一些喜欢的up主的动态</p><p>但是那电脑太jb卡了，32位win7，b站网页要加载半天</p><p>要不就做一个对电脑轻松一点的第三方网页吧</p><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><p><img src="/img/2025-02-22-10-31-48-image.png"></p><ul><li><p>添加 -&gt; 添加一个用户的uid</p></li><li><p>导入 -&gt; 通过json或返回位json的url导入</p></li><li><p>导出 -&gt; 复制json</p></li><li><p>uid右边的两个按钮：涌动位置到最上面、一处这个uid</p></li><li><p>请求 -&gt; 顾名思义</p></li></ul><p>纯文本懒得展示，接下来展示转发、图片、视频三种动态</p><p><img src="/img/2025-02-22-10-47-17-image.png"></p><p>转发动态和图片动态如图，右上角的是打开动态的二原链接</p><p>通过套娃的方式展示被转发动态，支持所有这里支持的动态</p><p><img src="/img/2025-02-22-10-48-33-image.png"></p><p>图片使用viewer.js查看</p><p>多张图片的话会在放图片的哪个区域横向排列，viewer.js也是可以在同一个动态内的多个图片切换的</p><p><img src="/img/2025-02-22-10-54-55-image.png"></p><p>视频长这样，左边一个封面，鼠标悬浮可以查看简介，右边是标题和链接</p><p><img src="/img/2025-02-22-11-10-33-image.png"></p><p>如果遇到了不支持的动态类型就会这样</p><p>怎么样？是不是很简单很好用（）</p><h3 id="开发经历"><a href="#开发经历" class="headerlink" title="开发经历"></a>开发经历</h3><p>写这个东西最大的困难在于调用api和获取图片</p><p>B站这波反爬虫做的好啊</p><p>首先是CORS，让一个纯浏览器黄健的JS项目无法直接请求</p><p>用反代试试？死了几个网站，都是状态码-352错误，找了一下，需要一个很复杂的签名验证</p><p>怎么搞呢？左后我用Qwen-2.5-Max喂了一下Bilibili-API-Collect里面相关的文档，生成了一个Python程序，成功地获取到了数据，结合一下放到我的pythonanywhere里面就能够正常调用了</p><p>不过这个API的成绩结构有点复杂</p><p>而且还存在opus动态，类似于文章的形式，有的动态标着是文本或者图文动态，实际上还要我判断一下是不是opus，它获取文本的内容和获取图片链接的节点不一样</p><p>然后就是图片了，又是CORS，找了很久终于找到了一个还不错的：<a href="https://wsrv.nl/">wsrv.nl</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Dev</tag>
+      
+      <tag>H5</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Quicktools第二弹 - 按键转写、音频转颜色、简约风表格工具</title>
     <link href="/2025/Quicktools2/"/>
     <url>/2025/Quicktools2/</url>
     
@@ -164,11 +216,11 @@
   
   
   <entry>
-    <title>花了大把时间做的CapsTools</title>
+    <title>CapsTools - 一个利用大写锁定键触发的工具箱</title>
     <link href="/2024/CapsTools/"/>
     <url>/2024/CapsTools/</url>
     
-    <content type="html"><![CDATA[<h1 id="CapsTools"><a href="#CapsTools" class="headerlink" title="CapsTools"></a>CapsTools</h1><p><a href="https://github.com/for-the-zero/CapsTools">Github</a></p><p>这个是我最近使用了二十多天的爆肝<del>（辛勤劳动成果）</del>，写了一个小工具</p><p>介绍的话，README就有，所以这里就写开发的坑和感受之类的吧</p><p>这是我第一次使用node.js开发js程序，也是我第一次使用electron开发程序，是一次非常宝贵的经验</p><hr><h2 id="前期（七月底）"><a href="#前期（七月底）" class="headerlink" title="前期（七月底）"></a>前期（七月底）</h2><p><del>绝区零真好玩</del></p><p>很快速写了一个Tray和全屏的面板主界面，轻轻松松</p><p>其中我给面板写了一个无用的css（已经被注释掉了），原本想着是提示快捷键的，后来懒得搞快捷键功能了</p><h2 id="翻译方案"><a href="#翻译方案" class="headerlink" title="翻译方案"></a>翻译方案</h2><p>很草率，也很后悔</p><p>js用三目运算符，<code>isChinese ? &#39;中文&#39; : &#39;English&#39;</code></p><p>html用<code>data-entext</code>属性存储英文文本，js直接替换</p><p>html这里由于ipc有延迟导致英语用户可以看到一瞬间中文，而且mdui组件库部分逐渐一下子还没有反应过来</p><h2 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h2><p>首先，我问了AI，一个个推荐我用electron自带的录屏的缩略图，那玩意糊到没法看，又问了几下，说没有库，直接把我带偏了</p><p>然后我就开始写Python实现截图，但我不满意，打包之后实在太大了</p><p>结果突然发现robot.js，这不就对了嘛</p><p>安装提示我要c++，装vs就行了，这个sb网络环境搞了我好久</p><p>运行又提示node版本不符合，要不是我上网搜索了我就重装了，其实是和electron版本不符合，要用electron-rebuild</p><p>运行又提示我说什么忘了，内存相关，找了一下发现是因为electron21+加入新的管理机制导致这个库的截屏用不了，退回&lt;21的版本就行</p><p>（没一会发现nut.js替代，算了不搞了，还是用robot.js吧）</p><p>结果这b玩意保存不了，最后是Claude3.5告诉我把buffer转png再转成buffer，确实行了，然后这个库发神经不是rgba二十bgra，我tm服了</p><h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><blockquote><p>你这程序也没有ocr功能啊，为什么要讲这个</p><p>其实一开始是有的，但是……</p></blockquote><p>首先我的想法就是py-&gt;exe，使用paddleocr</p><p>结果太大了，上传不了github，而且隐藏控制台的话electron获取不到输出</p><p>算了用js</p><p>不喜欢esm（不能直接用裸标识符，懒得打爆），用的全是cjs，转cjs了之后一堆bug，反手就是上百条webgl上下文丢失，服了搞不定，运行还巨卡，算了</p><p>换用tesseract，结果要在主进程开worker，不想这么干</p><p>最后，放弃了</p><p>你可以在提交历史中看到一句*你妈</p><h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>一开始用<code>&lt;iframe&gt;</code>，但是deepl不让用，转向<code>&lt;webview&gt;</code></p><p>bing翻译的url查询一直没搞懂，传入文本没问题，但是找不到翻译语言相关的</p><h2 id="剪贴板"><a href="#剪贴板" class="headerlink" title="剪贴板"></a>剪贴板</h2><p>由于调用electron和mdui的上下文菜单比较麻烦，反手改成了dialog+menu</p><p>一开始我是把剪贴板的整个图片放进去的，截了两个图就很卡了，于是就限制了高度，压缩成缩略图，好多了</p><h2 id="自定义图标"><a href="#自定义图标" class="headerlink" title="自定义图标"></a>自定义图标</h2><p>其实没什么难的，主要就在于要写不少，最复杂的是pwa的图标（其实都差不多）</p><p>先设置成默认的</p><p>如果是使用网页favicon，调用api获取它的链接</p><p>如果是svg的字符串，套用</p><p>如果是文件（后端进行检测）、url（前端进行检测），访问并获取可用性，还要分情况为svg和ico&#x2F;png，svg直接往html加，ico&#x2F;png用<code>&lt;img&gt;</code></p><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>一开始我其实用了Google Sans(Product Sans)，我以前写的很多程序都用过它作为英文字体，很好看，结果发现不能让我们用，只能删掉了</p><p>Noto Sans显示的字母好丑，又找不到能够与Google Sans媲美的免费可商用字体，不爽</p><h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><p>使用的是<code>electron-builder</code>打包</p><p>首先就是asar的问题，不用asar直接给我报错</p><p>按我的需求来又不知道怎么配置，我的需求是有几个文件既要在程序根目录又要在asar中，有几个文件只要在程序根目录</p><p>总有几个文件访问不了，后来试配置试了好久，最后用了比较妥协的办法，部分文件滞留在asar了，改代码（导致开发环境已经不能运行了）把<code>src/icon.png</code>改成了<code>resource/app.asar.unpacked/src/icon.png</code>，因为不知道如何让<code>asarUnpack</code>解压在根目录</p><p>剪贴板又出了问题，懒得改了，一个是无缘无故出现一个空值剪贴板记录，完全是空的，卡了bug导致操作不了它，另一个是图片的问题，提示的是转dataURL的时候被转的是null，关于这个对象，是获取剪贴板图片-&gt;nativeImage修改大小-&gt;转dataURL，我怀疑问题在第一步</p><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p><del>原神5.0更新了，好玩</del></p><p>写完这个blog已经是第二天，视频是昨天晚上发的，现在下午播放量伪53，点赞1，我他妈……</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="花了大把时间做的-CapsTools"><a href="#花了大把时间做的-CapsTools" class="headerlink" title="花了大把时间做的 CapsTools"></a>花了大把时间做的 CapsTools</h1><p><a href="https://github.com/for-the-zero/CapsTools">Github</a></p><p>这个是我最近使用了二十多天的爆肝<del>（辛勤劳动成果）</del>，写了一个小工具</p><p>介绍的话，README就有，所以这里就写开发的坑和感受之类的吧</p><p>这是我第一次使用node.js开发js程序，也是我第一次使用electron开发程序，是一次非常宝贵的经验</p><hr><h2 id="前期（七月底）"><a href="#前期（七月底）" class="headerlink" title="前期（七月底）"></a>前期（七月底）</h2><p><del>绝区零真好玩</del></p><p>很快速写了一个Tray和全屏的面板主界面，轻轻松松</p><p>其中我给面板写了一个无用的css（已经被注释掉了），原本想着是提示快捷键的，后来懒得搞快捷键功能了</p><h2 id="翻译方案"><a href="#翻译方案" class="headerlink" title="翻译方案"></a>翻译方案</h2><p>很草率，也很后悔</p><p>js用三目运算符，<code>isChinese ? &#39;中文&#39; : &#39;English&#39;</code></p><p>html用<code>data-entext</code>属性存储英文文本，js直接替换</p><p>html这里由于ipc有延迟导致英语用户可以看到一瞬间中文，而且mdui组件库部分逐渐一下子还没有反应过来</p><h2 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h2><p>首先，我问了AI，一个个推荐我用electron自带的录屏的缩略图，那玩意糊到没法看，又问了几下，说没有库，直接把我带偏了</p><p>然后我就开始写Python实现截图，但我不满意，打包之后实在太大了</p><p>结果突然发现robot.js，这不就对了嘛</p><p>安装提示我要c++，装vs就行了，这个sb网络环境搞了我好久</p><p>运行又提示node版本不符合，要不是我上网搜索了我就重装了，其实是和electron版本不符合，要用electron-rebuild</p><p>运行又提示我说什么忘了，内存相关，找了一下发现是因为electron21+加入新的管理机制导致这个库的截屏用不了，退回&lt;21的版本就行</p><p>（没一会发现nut.js替代，算了不搞了，还是用robot.js吧）</p><p>结果这b玩意保存不了，最后是Claude3.5告诉我把buffer转png再转成buffer，确实行了，然后这个库发神经不是rgba二十bgra，我tm服了</p><h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><blockquote><p>你这程序也没有ocr功能啊，为什么要讲这个</p><p>其实一开始是有的，但是……</p></blockquote><p>首先我的想法就是py-&gt;exe，使用paddleocr</p><p>结果太大了，上传不了github，而且隐藏控制台的话electron获取不到输出</p><p>算了用js</p><p>不喜欢esm（不能直接用裸标识符，懒得打爆），用的全是cjs，转cjs了之后一堆bug，反手就是上百条webgl上下文丢失，服了搞不定，运行还巨卡，算了</p><p>换用tesseract，结果要在主进程开worker，不想这么干</p><p>最后，放弃了</p><p>你可以在提交历史中看到一句*你妈</p><h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>一开始用<code>&lt;iframe&gt;</code>，但是deepl不让用，转向<code>&lt;webview&gt;</code></p><p>bing翻译的url查询一直没搞懂，传入文本没问题，但是找不到翻译语言相关的</p><h2 id="剪贴板"><a href="#剪贴板" class="headerlink" title="剪贴板"></a>剪贴板</h2><p>由于调用electron和mdui的上下文菜单比较麻烦，反手改成了dialog+menu</p><p>一开始我是把剪贴板的整个图片放进去的，截了两个图就很卡了，于是就限制了高度，压缩成缩略图，好多了</p><h2 id="自定义图标"><a href="#自定义图标" class="headerlink" title="自定义图标"></a>自定义图标</h2><p>其实没什么难的，主要就在于要写不少，最复杂的是pwa的图标（其实都差不多）</p><p>先设置成默认的</p><p>如果是使用网页favicon，调用api获取它的链接</p><p>如果是svg的字符串，套用</p><p>如果是文件（后端进行检测）、url（前端进行检测），访问并获取可用性，还要分情况为svg和ico&#x2F;png，svg直接往html加，ico&#x2F;png用<code>&lt;img&gt;</code></p><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>一开始我其实用了Google Sans(Product Sans)，我以前写的很多程序都用过它作为英文字体，很好看，结果发现不能让我们用，只能删掉了</p><p>Noto Sans显示的字母好丑，又找不到能够与Google Sans媲美的免费可商用字体，不爽</p><h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><p>使用的是<code>electron-builder</code>打包</p><p>首先就是asar的问题，不用asar直接给我报错</p><p>按我的需求来又不知道怎么配置，我的需求是有几个文件既要在程序根目录又要在asar中，有几个文件只要在程序根目录</p><p>总有几个文件访问不了，后来试配置试了好久，最后用了比较妥协的办法，部分文件滞留在asar了，改代码（导致开发环境已经不能运行了）把<code>src/icon.png</code>改成了<code>resource/app.asar.unpacked/src/icon.png</code>，因为不知道如何让<code>asarUnpack</code>解压在根目录</p><p>剪贴板又出了问题，懒得改了，一个是无缘无故出现一个空值剪贴板记录，完全是空的，卡了bug导致操作不了它，另一个是图片的问题，提示的是转dataURL的时候被转的是null，关于这个对象，是获取剪贴板图片-&gt;nativeImage修改大小-&gt;转dataURL，我怀疑问题在第一步</p><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p><del>原神5.0更新了，好玩</del></p><p>写完这个blog已经是第二天，视频是昨天晚上发的，现在下午播放量伪53，点赞1，我他妈……</p>]]></content>
     
     
     <categories>
@@ -207,11 +259,11 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
       
       <tag>H5</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -286,9 +338,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -313,9 +365,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -340,9 +392,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -367,9 +419,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -394,9 +446,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -421,9 +473,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -460,7 +512,7 @@
     
     <categories>
       
-      <category>其他</category>
+      <category>文笔</category>
       
     </categories>
     
@@ -486,9 +538,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -633,9 +685,9 @@
     
     <tags>
       
-      <tag>Python</tag>
-      
       <tag>Dev</tag>
+      
+      <tag>Python</tag>
       
     </tags>
     
@@ -648,7 +700,7 @@
     <link href="/2023/%E5%85%B3%E4%BA%8E/"/>
     <url>/2023/%E5%85%B3%E4%BA%8E/</url>
     
-    <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只高中畜生</th><th align="center">——————–</th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python和h5(边写边学)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">推特（X）</td><td align="center">for_the_zero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/Test-1/">上一篇</a>和<a href="/2023/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/">这篇</a></p>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th align="center"><img src="/img/avatar.png"></th><th align="center">for_the_zero<br>我，站长<br>一只高中畜生</th><th align="center">我的各个平台入口：<a href="https://bento.me/ftz">https://bento.me/ftz</a></th></tr></thead><tbody><tr><td align="center">就……凭兴趣搞的</td><td align="center">但是要是内容有更新，我不一定会改<br>例如上面那行</td><td align="center">我不太会搞</td></tr><tr><td align="center">写过:<br>scratch(不想搞了)<br>python和h5(边写边学)</td><td align="center">偶尔写几篇文章<br>文笔不好，但文章重要的是内容</td><td align="center">内容啥都有</td></tr><tr><td align="center">内容可能是→</td><td align="center">自己感兴趣的<br>教程<br>问题解决<br>乱发的<br>……</td><td align="center">评论区：issues</td></tr></tbody></table><hr><p>博客：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Netlify</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io">link</a></td><td align="center"><a href="//ftz-blog.netlify.app">link</a></td><td align="center"><a href="//ftz-blog.vercel.app">link</a></td></tr><tr><td align="center">较慢</td><td align="center">国内推荐</td><td align="center">国外推荐（国内被墙）</td></tr></tbody></table><p>网盘（已经弃用了）：</p><table><thead><tr><th align="center">Github Pages</th><th align="center">Vercel</th></tr></thead><tbody><tr><td align="center"><a href="//for-the-zero.github.io/MyDrive">link</a></td><td align="center"><a href="//ftz-drive.vercel.app">link</a></td></tr></tbody></table><hr><p>联系作者：</p><table><thead><tr><th align="center">平台</th><th align="center">链接或id</th></tr></thead><tbody><tr><td align="center">哔哩哔哩</td><td align="center">for_the_zero</td></tr><tr><td align="center">邮箱</td><td align="center"><a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></td></tr><tr><td align="center">GitHub</td><td align="center">for-the-zero</td></tr><tr><td align="center">稽木世界(scratch社区,不怎么玩了)</td><td align="center">forthezero</td></tr><tr><td align="center">推特（X）</td><td align="center">for_the_zero</td></tr><tr><td align="center">别的</td><td align="center">我想想</td></tr></tbody></table><hr><p>其他看<a href="/2023/Test-1/">上一篇</a>和<a href="/2023/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/">这篇</a></p>]]></content>
     
     
     <categories>
@@ -667,7 +719,7 @@
     <link href="/2023/Test-1/"/>
     <url>/2023/Test-1/</url>
     
-    <content type="html"><![CDATA[<h4 id="终于把这玩意搭建好了"><a href="#终于把这玩意搭建好了" class="headerlink" title="终于把这玩意搭建好了"></a><strong>终于</strong>把这玩意搭建好了</h4><p>使用了Hexo和Github Pages</p><p>主题是fluid</p><hr><p>把这个弃用了的云盘网页放在这里吧<a href="https://for-the-zero.github.io/MyDrive">Github Pages</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="终于把这玩意搭建好了"><a href="#终于把这玩意搭建好了" class="headerlink" title="终于把这玩意搭建好了"></a><strong>终于</strong>把这玩意搭建好了</h4><p>使用了Hexo和Github Pages</p><p>主题是fluid</p>]]></content>
     
     
     <categories>
