@@ -4,6 +4,62 @@
   
   
   <entry>
+    <title>往我自己做的简约表格加了一点AI</title>
+    <link href="/2025/taplesai/"/>
+    <url>/2025/taplesai/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Taple’s-AI"><a href="#Taple’s-AI" class="headerlink" title="Taple’s AI"></a>Taple’s AI</h1><p>Taple在<a href="/2025/quicktools2/">前面</a>已经介绍过了</p><p>这次是更新：<strong>AI调用支持</strong></p><p><a href="https://ftz-tools.netlify.app/taple/index.html">打开</a>就可以用了，还有<a href="https://bilibili.com/video/BV11qRoYjEYg">视频介绍</a></p><hr><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>点击工具栏最左边的菜单栏，可以看到最下面多了个<em>Open AI Panel</em>点进去就能打开面板了</p><p><del>不是OpenA，I但是只兼容OpenAI格式的API</del></p><p>两个流畅的动画叠在一起，看起来很舒适~</p><p>首先是面板，视频里面的画面已经介绍得很好了</p><p><img src="/img/e45fd8aa595ba600d30e4311e0302c6f65fe6234.png" alt="1409017438507032.png"></p><p>生成的过程长这样（视频截图）</p><p><img src="/img/39b81307928391dbe8b4cc96bc602a9e85fe247f.png" alt="IMG_20250405_190029.png"></p><p>试了一下，发现Qwen小参数模型都不太理想，最后换成Gemini 2.0 Flash就很爽了</p><hr><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>这次，是时隔好像是两个月，花了两个星期屎上雕花出来的，其实开发过程还顺手解决了一些问题，比如画布相关乘以<code>1.5</code>改成了dpr，这下清晰了</p><h3 id="构建界面"><a href="#构建界面" class="headerlink" title="构建界面"></a>构建界面</h3><p>老是忘这忘那的，先写了个<em>URL</em> <em>Key</em> <em>Language</em> <em>Thinking</em>，发现没有<em>Model</em>，然后又想到构思的时候还有一个修改的功能，加了个<em>Include</em>，又想了一下，最后加上了<em>Order</em></p><p>一开始下面三个按钮都是一个样式的，没有按钮旁边的图标，但是我觉得这样辨识度和引导不够就加上了，按钮不带文字是懒得写</p><h3 id="提示词"><a href="#提示词" class="headerlink" title="提示词"></a>提示词</h3><p>放在<code>ai.js</code>开头了，一共四个，中文不思考、英文不思考、中文思考、英文思考，都使用了XML+Markdown的风格编写的</p><p>找了个tokenizer，需求的token从1000+到2100+（中文思考）不等</p><p>提示词是我在Google AI Studio用Gemini 2.0 Flash-Lite测的</p><p>到了中文思考，我拼命提示Gemini 2.0 Flash-Lite不要用代码块，它总会在最后面加上一个xml代码块，同时很多模型都还会整不同的活</p><p>（转义需要，自己把反斜杠忽略掉吧）</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs markdown">...<br>\<span class="hljs-code">`&lt;result&gt;\`</span><br>&#123;...&#125;<br>\<span class="hljs-code">`&lt;/result&gt;\`</span><br></code></pre></td></tr></table></figure><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs markdown">...<br><span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">result</span>&gt;</span></span><br>\<span class="hljs-code">`\`</span>\`json<br>&#123;...&#125;<br>\<span class="hljs-code">`\`</span>\`<br><span class="language-xml"><span class="hljs-tag">&lt;/<span class="hljs-name">result</span>&gt;</span></span><br></code></pre></td></tr></table></figure><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown">...<br><span class="language-xml"><span class="hljs-tag">&lt;/<span class="hljs-name">think</span>&gt;</span></span><br>(没了，没有result了)<br></code></pre></td></tr></table></figure><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs markdown">\<span class="hljs-code">`\`</span>\`json<br>&#123;...&#125;<br>\<span class="hljs-code">`\`</span>\`<br>(<span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">result</span>&gt;</span></span>都不输出了)<br></code></pre></td></tr></table></figure><p>气死我了</p><p>我只对部分情况做了防备（在应用的时候）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Dev</tag>
+      
+      <tag>H5</tag>
+      
+      <tag>LLM</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Free-LLM-Collection - 一个分享关于免费的大模型API的地方</title>
+    <link href="/2025/FLC/"/>
+    <url>/2025/FLC/</url>
+    
+    <content type="html"><![CDATA[<p>这篇有点过于简短了哈</p><p>如题就是一个分享关于免费的大模型API的地方</p><p><a href="https://github.com/for-the-zero/Free-LLM-Collection">直接打开看吧</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Dev</tag>
+      
+      <tag>LLM</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>把我以前写的设定发送给了LLM</title>
     <link href="/2025/set2llm/"/>
     <url>/2025/set2llm/</url>
@@ -493,7 +549,7 @@
     
     <categories>
       
-      <category>其他</category>
+      <category>其它</category>
       
     </categories>
     
@@ -572,7 +628,7 @@
     <link href="/2023/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/"/>
     <url>/2023/%E6%9D%A5%E4%BA%A4%E4%B8%AA%E5%8F%8B%E5%90%A7/</url>
     
-    <content type="html"><![CDATA[<h1 id="寻知音"><a href="#寻知音" class="headerlink" title="寻知音"></a>寻知音</h1><hr><h1 id="为什么："><a href="#为什么：" class="headerlink" title="为什么："></a>为什么：</h1><ol><li><p>现实朋友少，虽然也不是很不堪</p></li><li><p>交友处处受挫(一方面经验不足，另一方面话题少)</p></li><li><p>他人不理解，慢慢疏远</p></li><li><p>不受人待见(有一个原本互不相识的，自我与他第一句话开始就看出很讨厌我，但与他人态度完全不同)</p></li><li><p>不如在网络世界试试</p></li></ol><hr><h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><p>邮箱：<a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></p><p>QQ: 2678408650</p><hr><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>附下两个blog链接<a href="/2023/01/14/%E5%85%B3%E4%BA%8E/">a</a><a href="/2023/05/02/%E8%87%AA%E8%BF%B0/">b</a></p><ul><li><p>会写代码，但不多（scratch&#x2F;python&#x2F;h5(html&#x2F;css&#x2F;js)）</p></li><li><p>使用哔哩哔哩、米游社、推特(X)</p></li><li><p>不喜欢短视频</p></li><li><p>才华多但不精（人话：会做很多事但一般都是入门级别</p></li><li><p>垃圾电脑</p></li><li><p>天天宅家玩</p></li><li><p>时不时有很多想法，有些不可能、有些没能力、有的正在做</p></li><li><p>学习忙碌（指有时间打游戏刷视频</p></li><li><p>玩原神、崩铁和phigros，绝区零退坑</p></li><li><p>我不喜欢过于严格的条条框框，不喜欢一些繁琐而无用的礼仪，反对形式主义……</p></li><li><p>喜欢读课外书，但必读书目除外；喜欢学习，学校除外</p></li><li><p>不喜欢这种被迫的、无法选择的、日复一日且枯燥的学习</p></li><li><p>天天白日梦，现实……咳咳</p></li><li><p>管你男的女的，和的来就行</p></li><li><p>……</p></li></ul><p>想到就写的，后来会补充</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="寻知音"><a href="#寻知音" class="headerlink" title="寻知音"></a>寻知音</h1><hr><h1 id="为什么："><a href="#为什么：" class="headerlink" title="为什么："></a>为什么：</h1><ol><li><p>现实朋友少，虽然也不是很不堪</p></li><li><p>交友处处受挫(一方面经验不足，另一方面话题少)</p></li><li><p>他人不理解，慢慢疏远</p></li><li><p>不受人待见(有一个原本互不相识的，自我与他第一句话开始就看出很讨厌我，但与他人态度完全不同)</p></li><li><p>不如在网络世界试试</p></li></ol><hr><h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><p>邮箱：<a href="mailto:forthezero@outlook.com">forthezero@outlook.com</a></p><p>QQ: 2678408650</p><hr><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>附下两个blog链接<a href="/2023/%E5%85%B3%E4%BA%8E/">a</a><a href="/2023/%E8%87%AA%E8%BF%B0/">b</a></p><ul><li><p>会写代码，但不多（scratch&#x2F;python&#x2F;h5(html&#x2F;css&#x2F;js)）</p></li><li><p>使用哔哩哔哩、米游社、推特(X)</p></li><li><p>不喜欢短视频</p></li><li><p>才华多但不精（人话：会做很多事但一般都是入门级别</p></li><li><p>垃圾电脑</p></li><li><p>天天宅家玩</p></li><li><p>时不时有很多想法，有些不可能、有些没能力、有的正在做</p></li><li><p>学习忙碌（指有时间打游戏刷视频</p></li><li><p>玩原神、崩铁和phigros，绝区零退坑</p></li><li><p>我不喜欢过于严格的条条框框，不喜欢一些繁琐而无用的礼仪，反对形式主义……</p></li><li><p>喜欢读课外书，但必读书目除外；喜欢学习，学校除外</p></li><li><p>不喜欢这种被迫的、无法选择的、日复一日且枯燥的学习</p></li><li><p>天天白日梦，现实……咳咳</p></li><li><p>管你男的女的，和的来就行</p></li><li><p>……</p></li></ul><p>想到就写的，后来会补充</p>]]></content>
     
     
     <categories>
@@ -640,7 +696,7 @@
     
     <categories>
       
-      <category>其他</category>
+      <category>其它</category>
       
     </categories>
     
@@ -659,7 +715,7 @@
     
     <categories>
       
-      <category>其他</category>
+      <category>其它</category>
       
     </categories>
     
