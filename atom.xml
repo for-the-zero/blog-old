@@ -38,9 +38,9 @@
     
     <category term="Dev" scheme="https://for-the-zero.github.io/tags/Dev/"/>
     
-    <category term="H5" scheme="https://for-the-zero.github.io/tags/H5/"/>
-    
     <category term="LLM" scheme="https://for-the-zero.github.io/tags/LLM/"/>
+    
+    <category term="H5" scheme="https://for-the-zero.github.io/tags/H5/"/>
     
   </entry>
   
@@ -49,17 +49,17 @@
     <link href="https://for-the-zero.github.io/2025/FLC/"/>
     <id>https://for-the-zero.github.io/2025/FLC/</id>
     <published>2025-04-05T11:43:00.000Z</published>
-    <updated>2025-04-05T11:45:14.936Z</updated>
+    <updated>2025-05-03T09:01:19.379Z</updated>
     
-    <content type="html"><![CDATA[<p>这篇有点过于简短了哈</p><p>如题就是一个分享关于免费的大模型API的地方</p><p><a href="https://github.com/for-the-zero/Free-LLM-Collection">直接打开看吧</a></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一个关于免费的大模型api的合集，并精选了一部分模型</p><p>我会尽可能更新维护这个项目（目前只有我一个人）</p><p>入选原则是：限制请求速率而不是token &gt; 尽可能多的来源 &gt; 尽可能新且好的模型 &gt; 足够用的请求速率</p><p>主要是有一定热度的文本模型</p><p>欢迎大家分享更多api</p><p><a href="https://github.com/for-the-zero/Free-LLM-Collection">上面是直接抄了README过来的，你还是直接打开看吧</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;这篇有点过于简短了哈&lt;/p&gt;
-&lt;p&gt;如题就是一个分享关于免费的大模型API的地方&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/for-the-zero/Free-LLM-Collection&quot;&gt;直接打开看吧&lt;/a&gt;&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;这是一个关于免费的大模型api的合集，并精选了一部分模型&lt;/p&gt;
+&lt;p&gt;我会尽可能更新维护这个项目（目前只有我一个人）&lt;/p&gt;
+&lt;p&gt;入选原则是：限制请求速率而不是token &amp;gt; 尽可能多的来源 &amp;gt; 尽可能新且好的模型 &amp;gt; 足够用的请求速率&lt;/p&gt;
+&lt;p&gt;</summary>
       
     
     
