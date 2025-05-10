@@ -6,7 +6,7 @@
   <link href="https://for-the-zero.github.io/atom.xml" rel="self"/>
   
   <link href="https://for-the-zero.github.io/"/>
-  <updated>2025-04-05T11:48:34.424Z</updated>
+  <updated>2025-05-10T14:15:25.242Z</updated>
   <id>https://for-the-zero.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又是英语演讲</title>
+    <link href="https://for-the-zero.github.io/2025/%E5%8F%88%E6%98%AF%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2/"/>
+    <id>https://for-the-zero.github.io/2025/%E5%8F%88%E6%98%AF%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2/</id>
+    <published>2025-05-10T13:52:00.000Z</published>
+    <updated>2025-05-10T14:15:25.242Z</updated>
+    
+    <content type="html"><![CDATA[<p>我又来整活了</p><p>PPT文件使用了分卷压缩</p><p><a href="../../img/%E6%BC%94%E8%AE%B22%E5%85%AC%E5%BC%80%E7%89%88.pptx.7z.001">001</a> <a href="../../img/%E6%BC%94%E8%AE%B22%E5%85%AC%E5%BC%80%E7%89%88.pptx.7z.002">002</a></p><p>这次视频比较多，所以文件会有一点点大——差不多是上次的5倍</p><p>但是我根本没写稿子，照着上面念就行了</p><hr><p>上来就是开幕雷击（请找找这一页的视角在哪里）</p><p><img src="/img%5C2025-05-10-21-57-15-image.png"></p><p>表情包展示</p><p><img src="/img%5C2025-05-10-21-58-28-image.png"></p><p>这个是最重点的，homo发疯时刻，超级路径动画</p><p>当我在学校用老师电脑该这一页的时候，直接把老师的WPS卡成30秒每帧（我没搞错单位哦）</p><p><img src="/img%5C2025-05-10-21-59-48-image.png"></p><hr><p>不知道写什么了，就这样吧</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我又来整活了&lt;/p&gt;
+&lt;p&gt;PPT文件使用了分卷压缩&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;../../img/%E6%BC%94%E8%AE%B22%E5%85%AC%E5%BC%80%E7%89%88.pptx.7z.001&quot;&gt;001&lt;/a&gt; &lt;a href=&quot;../../i</summary>
+      
+    
+    
+    
+    <category term="其它" scheme="https://for-the-zero.github.io/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>往我自己做的简约表格加了一点AI</title>
@@ -38,9 +62,9 @@
     
     <category term="Dev" scheme="https://for-the-zero.github.io/tags/Dev/"/>
     
-    <category term="LLM" scheme="https://for-the-zero.github.io/tags/LLM/"/>
-    
     <category term="H5" scheme="https://for-the-zero.github.io/tags/H5/"/>
+    
+    <category term="LLM" scheme="https://for-the-zero.github.io/tags/LLM/"/>
     
   </entry>
   
@@ -524,32 +548,6 @@
       
     <summary type="html">&lt;h1 id=&quot;Phone-Info&quot;&gt;&lt;a href=&quot;#Phone-Info&quot; class=&quot;headerlink&quot; title=&quot;Phone Info&quot;&gt;&lt;/a&gt;Phone Info&lt;/h1&gt;&lt;hr&gt;
 &lt;h2 id=&quot;core-py&quot;&gt;&lt;a href=&quot;#core-py&quot; </summary>
-      
-    
-    
-    
-    <category term="技术" scheme="https://for-the-zero.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Dev" scheme="https://for-the-zero.github.io/tags/Dev/"/>
-    
-    <category term="Python" scheme="https://for-the-zero.github.io/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AlanBecker视频列表：关注视频更新动态！</title>
-    <link href="https://for-the-zero.github.io/2024/%E5%85%B3%E6%B3%A8AB%E8%A7%86%E9%A2%91%E6%9B%B4%E6%96%B0/"/>
-    <id>https://for-the-zero.github.io/2024/%E5%85%B3%E6%B3%A8AB%E8%A7%86%E9%A2%91%E6%9B%B4%E6%96%B0/</id>
-    <published>2024-01-20T15:19:00.000Z</published>
-    <updated>2024-01-20T15:28:36.739Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="ABVL"><a href="#ABVL" class="headerlink" title="ABVL"></a><a href="https://forthezero.pythonanywhere.com/ab">ABVL</a></h1><p><a href="https://github.com/for-the-zero/practice.zip/tree/main/py/ytb-video-list">Github</a></p><h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>怎么说呢，我是Alan Becker的粉丝，一直想等更新</p><p>但是呢，他最近的更新不太寻常</p><p>以前很长一段时间，都会在油管的社区里面发预告的，但是最近他不发了，而且突然更新有点快，我又不能没到那个时候就翻__看一下</p><p>那么就有了这么一个想法，做一个能够检测更新的程序，放在外国的免费服务器上<del>（孩子没钱）</del>，时不时访问一下就不用每次都翻了</p><h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>一开始我的想法是requests爬虫，结果怎么也爬不到，那就只能找api了</p><p>上网搜了一下，很快啊，Youtube API V3 Data！研究了一下调用，我要的数据都有了</p><p>我是用Postwoman测试api的，但是当我转移到python进行本地测试后，总是报错，因为那玩意要单独设置代理 </p><p>本来还想搞直播检测的，结果要强制登陆账号，放弃了</p><p>那么前端呢？Flask！做了一个小小的网页模板，运用了mdbootstrap，稍微好看了点</p><p>最后就是服务器了，我放在了PythonAnywhere上，访问的时候一直不通过，结果是因为wsgi文件没有设置。上网抄了一段，还是不行，只在import语句报错，说是找不到文件。后来排查了很久，实在不行的时候我想把上面的路径删掉一个<code>/</code>，还真就行了，6</p><h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><p>可以直连查看：链接、标题、发布时间</p><p><img src="/img/2024-01-20-19-46-04-image.png"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;ABVL&quot;&gt;&lt;a href=&quot;#ABVL&quot; class=&quot;headerlink&quot; title=&quot;ABVL&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://forthezero.pythonanywhere.com/ab&quot;&gt;ABVL&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&lt;a href</summary>
       
     
     
