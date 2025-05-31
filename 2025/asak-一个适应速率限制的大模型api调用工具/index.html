@@ -16,27 +16,27 @@
   <meta name="author" content="for_the_zero">
   <meta name="keywords" content="">
   
-    <meta name="description" content="DNA打结器一共两个 语文版：mixmem 化学版：tiedna 用的技术不一样  MixMem从网上忘了哪里把初中古诗词搞了过来，写了个已经删掉了的程序根据符号分段成了一行一句 话说那个崽是没有强迫症吗，大多数用，，少数用,，再加上古诗词本来就有的其他符号，给我增工作量呢，滚动条拖着拖着就发现有几行特别长，一看就是没有正确分句，就这个弄了一段时间 其他不难，随手做的，练习一下，顺便试试新东西——">
+    <meta name="description" content="asak，一个轻量级的小项目，是我对制作python和js库的一个小尝试 先挂链接：for-the-zero&#x2F;asak: A LLM API Tool-API Smart Access Kit 既然README和 文档都写得很清楚了，那么我就写一下心路历程（？）吧 由于有一些不会的，也是找了一些ai帮助了一点点  文档先写文档，再写js代码，再改文档，很神奇是不是 拼写这个不是bug">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一段时间前做了一个DNA打结的东西">
-<meta property="og:url" content="https://for-the-zero.github.io/2024/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%89%8D%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AADNA%E6%89%93%E7%BB%93%E7%9A%84%E4%B8%9C%E8%A5%BF/index.html">
+<meta property="og:title" content="asak - 一个适应速率限制的大模型api调用工具">
+<meta property="og:url" content="https://for-the-zero.github.io/2025/asak-%E4%B8%80%E4%B8%AA%E9%80%82%E5%BA%94%E9%80%9F%E7%8E%87%E9%99%90%E5%88%B6%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8Bapi%E8%B0%83%E7%94%A8%E5%B7%A5%E5%85%B7/index.html">
 <meta property="og:site_name" content="for_the_zero 的破站">
-<meta property="og:description" content="DNA打结器一共两个 语文版：mixmem 化学版：tiedna 用的技术不一样  MixMem从网上忘了哪里把初中古诗词搞了过来，写了个已经删掉了的程序根据符号分段成了一行一句 话说那个崽是没有强迫症吗，大多数用，，少数用,，再加上古诗词本来就有的其他符号，给我增工作量呢，滚动条拖着拖着就发现有几行特别长，一看就是没有正确分句，就这个弄了一段时间 其他不难，随手做的，练习一下，顺便试试新东西——">
+<meta property="og:description" content="asak，一个轻量级的小项目，是我对制作python和js库的一个小尝试 先挂链接：for-the-zero&#x2F;asak: A LLM API Tool-API Smart Access Kit 既然README和 文档都写得很清楚了，那么我就写一下心路历程（？）吧 由于有一些不会的，也是找了一些ai帮助了一点点  文档先写文档，再写js代码，再改文档，很神奇是不是 拼写这个不是bug">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://for-the-zero.github.io/img/2024-01-20-20-05-35-image.png">
-<meta property="og:image" content="https://for-the-zero.github.io/img/2024-01-20-20-07-50-image.png">
-<meta property="og:image" content="https://for-the-zero.github.io/img/2024-01-20-20-11-53-image.png">
-<meta property="article:published_time" content="2024-01-20T15:17:00.000Z">
-<meta property="article:modified_time" content="2024-01-20T15:28:22.155Z">
+<meta property="og:image" content="https://for-the-zero.github.io/img/2025-05-30-23-33-38-image.png">
+<meta property="article:published_time" content="2025-05-31T01:44:00.000Z">
+<meta property="article:modified_time" content="2025-05-31T01:46:18.522Z">
 <meta property="article:author" content="for_the_zero">
 <meta property="article:tag" content="Dev">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="前端">
 <meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://for-the-zero.github.io/img/2024-01-20-20-05-35-image.png">
+<meta name="twitter:image" content="https://for-the-zero.github.io/img/2025-05-30-23-33-38-image.png">
   
   
   
-  <title>一段时间前做了一个DNA打结的东西 | for_the_zero 的破站</title>
+  <title>asak - 一个适应速率限制的大模型api调用工具 | for_the_zero 的破站</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -203,7 +203,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="一段时间前做了一个DNA打结的东西"></span>
+            <span id="subtitle" data-typed-text="asak - 一个适应速率限制的大模型api调用工具"></span>
           
         </div>
 
@@ -214,8 +214,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-20 23:17" pubdate>
-          2024年1月20日 晚上
+        <time datetime="2025-05-31 09:44" pubdate>
+          2025年5月31日 上午
         </time>
       </span>
     
@@ -226,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          545 字
+          680 字
         
       </span>
     
@@ -278,49 +278,40 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">一段时间前做了一个DNA打结的东西</h1>
+            <h1 id="seo-header">asak - 一个适应速率限制的大模型api调用工具</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="DNA打结器"><a href="#DNA打结器" class="headerlink" title="DNA打结器"></a>DNA打结器</h1><p>一共两个</p>
-<p>语文版：<a target="_blank" rel="noopener" href="https://github.com/for-the-zero/practice.zip/tree/main/py/mixmem">mixmem</a></p>
-<p>化学版：<a target="_blank" rel="noopener" href="https://github.com/for-the-zero/practice.zip/blob/main/py/other/tiedna.py">tiedna</a></p>
-<p>用的技术不一样</p>
+                <p><img src="/./img/2025-05-30-23-33-38-image.png" srcset="/img/loading.gif" lazyload></p>
+<p>asak，一个轻量级的小项目，是我对制作python和js库的一个小尝试</p>
+<p>先挂链接：<a target="_blank" rel="noopener" href="https://github.com/for-the-zero/asak">for-the-zero&#x2F;asak: A LLM API Tool-API Smart Access Kit</a></p>
+<p>既然README和 文档都写得很清楚了，那么我就写一下心路历程（？）吧</p>
+<p>由于有一些不会的，也是找了一些ai帮助了一点点</p>
 <hr>
-<h1 id="MixMem"><a href="#MixMem" class="headerlink" title="MixMem"></a>MixMem</h1><p>从网上忘了哪里把初中古诗词搞了过来，写了个已经删掉了的程序根据符号分段成了一行一句</p>
-<p>话说那个崽是没有强迫症吗，大多数用<code>，</code>，少数用<code>,</code>，再加上古诗词本来就有的其他符号，给我增工作量呢，滚动条拖着拖着就发现有几行特别长，一看就是没有正确分句，就这个弄了一段时间</p>
-<p>其他不难，随手做的，练习一下，顺便试试新东西——Flet</p>
-<p>这是我找到的有一个GUI框架，是用Flutter显示的，API还算友好<del>（感觉不如dpg）</del>，就喜欢这种，随手做了一下</p>
-<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>解：如图所示</p>
-<p><img src="/img/2024-01-20-20-05-35-image.png" srcset="/img/loading.gif" lazyload></p>
-<p>你可以选择仅五个字的诗句、仅七个字的、没有限制的</p>
-<p>可以选择生成1~100个诗句</p>
-<p><del>一句的话……还挺适合复习的</del></p>
-<p>Come On一下，就能生成</p>
-<p>就像这样：</p>
-<p><img src="/img/2024-01-20-20-07-50-image.png" srcset="/img/loading.gif" lazyload></p>
-<p>你可以选中文本复制</p>
-<blockquote>
-<p>有吏夜捉人。</p>
-<p>如闻泣幽咽。</p>
-</blockquote>
-<p>你会发现很多奇妙的组合</p>
+<h1 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h1><p>先写文档，再写js代码，再改文档，很神奇是不是</p>
+<h1 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h1><p>这个不是bug</p>
+<p>只是把available拼写成了avaliable</p>
+<p>（乐）</p>
+<h1 id="openai的js库"><a href="#openai的js库" class="headerlink" title="openai的js库"></a>openai的js库</h1><p>一开始没有找到什么文档，干脆直接问ai</p>
+<p>结果这ai不知道拿的是什么版本的api糊弄我，搞得我在调用的时候搞了好几下</p>
+<p>顺便说一下，js的生成器函数创建起来比py麻烦些哦</p>
+<p>还有就是测试CDN导入的时候，发现openai库需要dangerouslyAllowBrowser才能搞，行啊（这就是<code>1.0.1</code>的由来）</p>
+<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><p>刚好动工的时候研学，于是打算用手机写</p>
+<p>没找到合适的编辑器，只有一个差劲的凑活用</p>
+<p>太难用了，缩进都得点两下，回车的时候只有结尾是冒号的时候才能缩进</p>
+<p>就没用过这么难用的</p>
+<p>回到家想了一想，懒得搞，把js喂给了ai</p>
+<p>一行一行人工审核就搞定了</p>
+<h1 id="pypi"><a href="#pypi" class="headerlink" title="pypi"></a>pypi</h1><p>初出茅庐，不会上传</p>
+<p>第一次呢，是<code>pyproject.toml</code>和<code>__init__.py</code>同目录</p>
+<p>上传完测试一下发现什么都没导入，打开tar包一看什么代码都没有，就是个空的</p>
+<p>于是创建了一层目录重新上传，这就是<code>1.0.1</code>的由来<del>（梅开二度</del></p>
+<h1 id="后来"><a href="#后来" class="headerlink" title="后来"></a>后来</h1><p>审视了一下自己的史堆<del>（太小了不能说是山）</del></p>
+<p>一堆判断配置符不符合要求，拍拍头，说，直接在构造的时候检查配置不就完了吗</p>
+<p>很快啊，搞定了</p>
 <hr>
-<h1 id="TieDNA"><a href="#TieDNA" class="headerlink" title="TieDNA"></a>TieDNA</h1><p>这个就没那么复杂了，随便做的</p>
-<p><del>（挺像那个乱用主谓宾的小游戏啊）</del></p>
-<p>命令行显示 + msvcrt检测按键</p>
-<p>运行时按不同的按键有不同的句式</p>
-<p><img src="/img/2024-01-20-20-11-53-image.png" srcset="/img/loading.gif" lazyload></p>
-<p>（图中7个是1模式，7个是2模式，7个是3模式，7个是4模式，）</p>
-<p>离谱就对了</p>
-<p><del>（不会有人不知道n是名词v是动词吧）</del></p>
-<p>你会发现很多奇怪的组合</p>
-<blockquote>
-<p>用天平把化学实验室砸坏<br>用化学老师把白磷被吃掉</p>
-</blockquote>
-<p>我特意写了<code>立即发生爆炸</code> <code>化学实验室</code> <code>化学老师</code> </p>
-<p>十分的有趣啊~</p>
+<p>就这样，没什么东西想写了</p>
 
                 
               </div>
@@ -356,6 +347,10 @@
       
         <a href="/tags/Dev/" class="print-no-link">#Dev</a>
       
+        <a href="/tags/LLM/" class="print-no-link">#LLM</a>
+      
+        <a href="/tags/%E5%89%8D%E7%AB%AF/" class="print-no-link">#前端</a>
+      
         <a href="/tags/Python/" class="print-no-link">#Python</a>
       
     </div>
@@ -370,18 +365,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/%E5%81%9A%E4%BA%86%E4%B8%AA%E5%8F%ABPinCopy%E7%9A%84%E7%8E%A9%E6%84%8F/" title="做了个叫PinCopy的玩意">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">做了个叫PinCopy的玩意</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/%E6%89%B9%E5%88%A4/" title="一点危险的想法">
-                        <span class="hidden-mobile">一点危险的想法</span>
+                      <a href="/2025/%E5%8F%88%E6%98%AF%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2/" title="又是英语演讲">
+                        <span class="hidden-mobile">又是英语演讲</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
