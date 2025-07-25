@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://for-the-zero.github.io/img/e91bbb309ee855ba05fd27bf269efbbe1dd7fc73.png">
 <meta property="article:published_time" content="2025-07-01T13:48:00.000Z">
-<meta property="article:modified_time" content="2025-07-01T13:49:25.091Z">
+<meta property="article:modified_time" content="2025-07-01T13:53:53.671Z">
 <meta property="article:author" content="for_the_zero">
 <meta property="article:tag" content="Dev">
 <meta property="article:tag" content="前端">
@@ -311,7 +311,7 @@
 <h3 id="折叠卡片"><a href="#折叠卡片" class="headerlink" title="折叠卡片"></a>折叠卡片</h3><p>原本我想的是让代码块和模型思考内容用折叠卡片折起来的</p>
 <p>组件库里面有一个折叠的组件，但是没到正式版</p>
 <p>拿来用了，结果巨抽象，修不好一气之下删掉了</p>
-<p>（同时黑油个flex布局问题，硬是滚动不起来，后来再套了一层解决了）</p>
+<p>（同时还有个flex布局问题，硬是滚动不起来，后来再套了一层解决了）</p>
 <p>bug如图：</p>
 <p><img src="/./img/e91bbb309ee855ba05fd27bf269efbbe1dd7fc73.png" srcset="/img/loading.gif" lazyload alt="无标题-2024-10-06-1748.excalidraw.png"></p>
 <h3 id="文件处理"><a href="#文件处理" class="headerlink" title="文件处理"></a>文件处理</h3><p>用的是electron的<code>dialog</code>，发现渲染进程不能直接用</p>
@@ -319,8 +319,8 @@
 <p>还是不行</p>
 <p>于是就在preload里面写ipc，这样子才能工作</p>
 <h3 id="api请求和ipc"><a href="#api请求和ipc" class="headerlink" title="api请求和ipc"></a>api请求和ipc</h3><p>这一部分基本上把react萌新该踩的坑给踩了</p>
-<p>一个呢state不会马上刷新，给<code>set_xxx</code>传的函数就老实了😈</p>
-<p>一个呢不要在组件的函数体直接定义，因为每次刷新都会定义一遍（好像是），搞得我在测试的时候连续重复请求把电脑卡爆了</p>
+<p>一个呢state不会马上刷新，给<code>set_xxx</code>传个函数就老实了😈</p>
+<p>另一个呢不要在组件的函数体直接定义，因为每次刷新都会定义一遍（好像是），搞得我在测试的时候连续重复请求把电脑卡爆了</p>
 <p>应该在<code>useEffect</code>中定义才对，但是呢，由于StrictMode，这玩意会执行两次，在组件函数外面加一个变量测一下有没有注册过监听器就行了</p>
 <h3 id="Markdown渲染"><a href="#Markdown渲染" class="headerlink" title="Markdown渲染"></a>Markdown渲染</h3><p>一开始呢，我直接让它能渲染文本中的html，想着也没啥，结果ai生成了一个html标签，炸了</p>
 <p>那我还想要保留think标签（无论是用think标签还是用<code>chunk.delta.reasoning</code>(OpenRouter等)还是用<code>chunk.delta.reasoning_content</code>(SiliconFlow等)我都转换成了think标签）的渲染</p>
@@ -396,6 +396,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2025/MapPinner/" title="MapPinner: 在地图上留下自己旅行时走过之处的标记">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">MapPinner: 在地图上留下自己旅行时走过之处的标记</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">

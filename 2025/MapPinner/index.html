@@ -16,23 +16,23 @@
   <meta name="author" content="for_the_zero">
   <meta name="keywords" content="">
   
-    <meta name="description" content="tttpro最近整了个玩意，较TicTacToePro（乱取的） Github 在线玩  设计 但是突然一想就搞了这么个项目  先把井字棋的所有结局和它的胜负平算出来  一起塞到sqlite，方便快速查找  玩的时候通过计算剩下可行的步骤，搜索数据库，找到最好的一步   当时的想象：一个完美的对手，从来不输，直接无敌，赢不了它 实际上：自己体会  工具的选用sqlite我只是添加和查找，没什么大的">
+    <meta name="description" content="MapPinner花了5天时间写完了一个软件，叫做MapPinner 这是我第一次正式写安卓app，也是第一次写react native程序，顺便第一次接触typescript(tsx) react写得很顺native 一言难尽 照样开源到Github，可以到release 下载 b站又介绍视频哦BV1EUb1zEEFi  关于一些第三方库expo可以省去一些react native 的麻烦，但是">
 <meta property="og:type" content="article">
-<meta property="og:title" content="记一下自己写tttpro">
-<meta property="og:url" content="https://for-the-zero.github.io/2023/tttpro/index.html">
+<meta property="og:title" content="MapPinner: 在地图上留下自己旅行时走过之处的标记">
+<meta property="og:url" content="https://for-the-zero.github.io/2025/MapPinner/index.html">
 <meta property="og:site_name" content="for_the_zero 的破站">
-<meta property="og:description" content="tttpro最近整了个玩意，较TicTacToePro（乱取的） Github 在线玩  设计 但是突然一想就搞了这么个项目  先把井字棋的所有结局和它的胜负平算出来  一起塞到sqlite，方便快速查找  玩的时候通过计算剩下可行的步骤，搜索数据库，找到最好的一步   当时的想象：一个完美的对手，从来不输，直接无敌，赢不了它 实际上：自己体会  工具的选用sqlite我只是添加和查找，没什么大的">
+<meta property="og:description" content="MapPinner花了5天时间写完了一个软件，叫做MapPinner 这是我第一次正式写安卓app，也是第一次写react native程序，顺便第一次接触typescript(tsx) react写得很顺native 一言难尽 照样开源到Github，可以到release 下载 b站又介绍视频哦BV1EUb1zEEFi  关于一些第三方库expo可以省去一些react native 的麻烦，但是">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-08-29T09:15:00.000Z">
-<meta property="article:modified_time" content="2024-01-20T15:27:38.591Z">
+<meta property="article:published_time" content="2025-07-25T08:00:00.000Z">
+<meta property="article:modified_time" content="2025-07-25T08:02:16.544Z">
 <meta property="article:author" content="for_the_zero">
-<meta property="article:tag" content="Python">
 <meta property="article:tag" content="Dev">
+<meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>记一下自己写tttpro | for_the_zero 的破站</title>
+  <title>MapPinner: 在地图上留下自己旅行时走过之处的标记 | for_the_zero 的破站</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -199,7 +199,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="记一下自己写tttpro"></span>
+            <span id="subtitle" data-typed-text="MapPinner: 在地图上留下自己旅行时走过之处的标记"></span>
           
         </div>
 
@@ -210,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-08-29 17:15" pubdate>
-          2023年8月29日 下午
+        <time datetime="2025-07-25 16:00" pubdate>
+          2025年7月25日 下午
         </time>
       </span>
     
@@ -222,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          894 字
+          1.4k 字
         
       </span>
     
@@ -274,74 +274,62 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">记一下自己写tttpro</h1>
+            <h1 id="seo-header">MapPinner: 在地图上留下自己旅行时走过之处的标记</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="tttpro"><a href="#tttpro" class="headerlink" title="tttpro"></a>tttpro</h1><p>最近整了个玩意，较TicTacToePro（乱取的）</p>
-<p><a target="_blank" rel="noopener" href="//github.com/for-the-zero/tictactoepro">Github</a> <a target="_blank" rel="noopener" href="//ftz-tttpro.streamlit.app/">在线玩</a></p>
+                <h1 id="MapPinner"><a href="#MapPinner" class="headerlink" title="MapPinner"></a>MapPinner</h1><p>花了5天时间写完了一个软件，叫做MapPinner</p>
+<p>这是我第一次正式写安卓app，也是第一次写react native程序，顺便第一次接触typescript(tsx)</p>
+<p>react写得很顺native 一言难尽</p>
+<p>照样开源到<a target="_blank" rel="noopener" href="https://github.com/for-the-zero/MapPinner">Github</a>，可以到release 下载</p>
+<p>b站又介绍视频哦<a target="_blank" rel="noopener" href="https://bilibili.com/video/BV1EUb1zEEFi">BV1EUb1zEEFi</a></p>
 <hr>
-<h1 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h1><ol>
-<li><p>但是突然一想就搞了这么个项目</p>
-</li>
-<li><p>先把井字棋的所有结局和它的胜负平算出来</p>
-</li>
-<li><p>一起塞到sqlite，方便快速查找</p>
-</li>
-<li><p>玩的时候通过计算剩下可行的步骤，搜索数据库，找到最好的一步</p>
-</li>
-</ol>
-<p>当时的想象：一个完美的对手，从来不输，直接无敌，赢不了它</p>
-<p>实际上：自己<a target="_blank" rel="noopener" href="//ftz-tttpro.streamlit.app/">体会</a></p>
+<h2 id="关于一些第三方库"><a href="#关于一些第三方库" class="headerlink" title="关于一些第三方库"></a>关于一些第三方库</h2><h3 id="expo"><a href="#expo" class="headerlink" title="expo"></a>expo</h3><p>可以省去一些react native 的麻烦，但是也带来了新的麻烦</p>
+<p>由于地图等组件涉及了原生代码所以热重载调试不能用expo go，要用dev client </p>
+<p>偷懒不用Android Studio全部用eas构建，结果晚上构建还得排队一个多小时，唉……</p>
+<p>由于做几个功能就得添加一个原生库，一共构建了8次</p>
+<h3 id="react-native-paper"><a href="#react-native-paper" class="headerlink" title="react-native-paper"></a>react-native-paper</h3><p>这是个material 3组件库，是我找到最完善的react native的m3组件库</p>
+<p>即使如此，我还是用了，但是我还想吐槽一下</p>
+<p>首先是Switch组件，这完全是md2风格的，做都不做了……</p>
+<p>然后ToolTip，别人家都是透明背景的，你这就纯黑了……</p>
+<p>还有List.AccordionGroup，列表里面的折叠组，不但动画播放一半直接动画结束，展开时子项都还是直接显示的</p>
+<p>还有就是TextInput，它的label按照md3的设计，是处于或离开焦点后移到移出左上角，但是对比一下别的组件库，明显可以看出这个组件库的这个动画极其生硬，而且placeholder是直接出现的，因此我故意避免了这两个属性</p>
+<p>还有就是Select&#x2F;Dropdown组件，但是这个这么常见的组件竟然在这个组件库不存在‽‽‽（我用Dialog+List代替的）</p>
+<p>还有啊就是Drawer，本来以为直接用的，实际上还得自己导入一个<code>@react-navigation/drawer</code></p>
 <hr>
-<h1 id="工具的选用"><a href="#工具的选用" class="headerlink" title="工具的选用"></a>工具的选用</h1><h2 id="sqlite"><a href="#sqlite" class="headerlink" title="sqlite"></a>sqlite</h2><p>我只是添加和查找，没什么大的需求，而且它可以本地搞</p>
-<p>完全够了</p>
-<h2 id="streamlit"><a href="#streamlit" class="headerlink" title="streamlit"></a>streamlit</h2><p>这个可以让它在web端搞界面，同类的还有<code>pywebio</code>，但我选了这个，因为更好看</p>
-<p>我选web界面是因为可以部署，不然只能本地运行，你想想，发一个链接就能让大家玩，对于没电脑的或电脑小白来说不是很好吗</p>
-<p>而且它自己也有个云，直接就可以部署了，很方便</p>
-<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p>求过chatGPT，用过AWS的代码填充，这里没用Github Copilot<del>因为要钱了就再也没用过</del></p>
-<p>对一些模块之类的还是很生疏</p>
-<hr>
-<h1 id="部分遇到过的Bug"><a href="#部分遇到过的Bug" class="headerlink" title="部分遇到过的Bug"></a>部分遇到过的Bug</h1><h2 id="棋盘显示方式"><a href="#棋盘显示方式" class="headerlink" title="棋盘显示方式"></a>棋盘显示方式</h2><p>一开始想用按钮，结果不支持同名按钮</p>
-<p>列表吧，空的会让它显示很奇怪，就加了两个点</p>
-<p>（其实中间省略了很多）</p>
-<h2 id="sqlite语句"><a href="#sqlite语句" class="headerlink" title="sqlite语句"></a>sqlite语句</h2><p>网上教程都不说的，我还在<code>1=N</code>，加了几个符号就行了</p>
-<h2 id="棋盘不显示"><a href="#棋盘不显示" class="headerlink" title="棋盘不显示"></a>棋盘不显示</h2><p>不了解streamlit是怎样运行的，直接搞了个变量上去</p>
-<h2 id="机器人连着下两次棋"><a href="#机器人连着下两次棋" class="headerlink" title="机器人连着下两次棋"></a>机器人连着下两次棋</h2><p>我多打了个<code>robot()</code></p>
-<h2 id="下不了棋"><a href="#下不了棋" class="headerlink" title="下不了棋"></a>下不了棋</h2><p>在把棋局列表转换为md的时候，动到了原来的列表(?)，<code>&#39;N&#39;</code>全改为空了</p>
-<p>刚好在下棋那里<code>if #$%^&amp; == &#39;N&#39;:</code>条件就不成立了，就直接下不了棋了</p>
-<p>现在改成转换后替换字符串，解决了</p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>首先，上传github</p>
-<p><strong>超时</strong></p>
-<p>再来</p>
-<p><code>OpenSSL SSL_read: Connection was reset, errno 10054</code></p>
-<p>不会了</p>
-<p>找！</p>
-<p>还是解决不了</p>
-<p><code>ipconfig /flushdns</code></p>
-<p>成功</p>
-<p>打开streamlit cloud，Github登录</p>
-<p><strong>访问超时</strong></p>
+<h2 id="开发历程"><a href="#开发历程" class="headerlink" title="开发历程"></a>开发历程</h2><h3 id="i18n"><a href="#i18n" class="headerlink" title="i18n"></a>i18n</h3><p>一开始呢，想着自己写的，直接一个对象搞定</p>
+<p>后来想要搞语言切换，又不知道怎么刷新已经加载好了的的页面，尝试各种方法</p>
+<p>把自写改成<code>i18n-js</code>，但是最后也没有做语言切换</p>
+<h3 id="地图"><a href="#地图" class="headerlink" title="地图"></a>地图</h3><p>一开始我打算用<code>expo-map</code>的</p>
+<p>结果这玩意要求我必须提供一个可用的Google Map API Key，而且必须要有一个Google标（因为用的是谷歌的引擎）</p>
+<p>然后换成了<code>MapLibre</code>  </p>
+<p>但是右下角有一个info按钮，刚好被我的FAB挡住了</p>
+<p>没找到移动那个按钮的相关api，那就移动一下FAB吧</p>
+<p>不好看</p>
+<p>移回去了</p>
+<p>虽然也能按到，当我还是在关于页面加上了那几个链接</p>
+<h3 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h3><p>这是最头疼的玩意之一</p>
+<p>调用不难，问题是这死活获取不到定位</p>
+<p>在Dev Client里面基本上获取定位都会报错</p>
+<p>想了一想，增加几个权限</p>
+<p>变成了有概率报错</p>
+<p>最后改成了最高进度失败尝试高精度，高精度失败获取最后可用位置</p>
+<p>（打包之后好像一次就定位成功了）</p>
+<h3 id="视角移动"><a href="#视角移动" class="headerlink" title="视角移动"></a>视角移动</h3><p>可能是因为React特性，只要任意一个state改变，视角就会回到上一次代码改变视角的位置和大小</p>
+<p>无论用户怎么更改位置</p>
+<p>（懒得解决）</p>
+<p>只是在部分场景下增加了一个移动视角到当前视角的</p>
+<p>别的懒得解决</p>
+<p>还有就是我不设置位置，默认视角就是在0,0 的位置，也就是大西洋某点</p>
+<p>这个很好解决</p>
+<h3 id="页面跳转"><a href="#页面跳转" class="headerlink" title="页面跳转"></a>页面跳转</h3><p><del>这个动画好爽</del></p>
+<p>给<code>_layout.tsx</code>也就是Stack部分做点手脚即可</p>
+<h3 id="脑抽bug"><a href="#脑抽bug" class="headerlink" title="脑抽bug"></a>脑抽bug</h3><p>复制路线时，我竟然把本来就是JSON的数据又<code>JSON.stringlify</code>了</p>
+<p>加载的时候写了一个永远为<code>true</code>但是不影响的if表达式</p>
+<p>把重启app的代码加在了打开对话框上而不是对话框确认按钮上</p>
+<p>识别到经纬度超过范围后没写<code>return;</code>搞得这几行跟没写一样</p>
 <p>……</p>
-<p>搞好了，看看</p>
-<p>报错：是模块引用</p>
-<p>创建<code>requirements.txt</code></p>
-<p>（<code>sqlite</code>和<code>Random</code>不需要）</p>
-<p>修改~</p>
-<p>完成！！！</p>
-<hr>
-<h1 id="性能（哭笑不得"><a href="#性能（哭笑不得" class="headerlink" title="性能（哭笑不得"></a>性能（哭笑不得</h1><ol>
-<li></li>
-</ol>
-<p>生成结局和导入到数据库的时候花了很久</p>
-<p>但是还出了bug，多搞了几次</p>
-<ol start="2">
-<li></li>
-</ol>
-<p>下棋要等待3-4秒</p>
-<p>知道我放到云端后</p>
-<p><strong>这么快‽</strong></p>
 
                 
               </div>
@@ -375,9 +363,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Python/" class="print-no-link">#Python</a>
-      
         <a href="/tags/Dev/" class="print-no-link">#Dev</a>
+      
+        <a href="/tags/%E5%89%8D%E7%AB%AF/" class="print-no-link">#前端</a>
       
     </div>
   
@@ -391,18 +379,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3%EF%BC%9A%E8%AE%BE%E5%AE%9A/" title="胡思乱想：设定">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">胡思乱想：设定</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/%E5%9C%A8scratch%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%BA%AF%E7%94%BB%E7%AC%94%E6%8E%92%E7%89%88/" title="在scratch实现简单纯画笔排版">
-                        <span class="hidden-mobile">在scratch实现简单纯画笔排版</span>
+                      <a href="/2025/LMCanvas/" title="自制软件LMCanvas —— 让界面与模型交互">
+                        <span class="hidden-mobile">自制软件LMCanvas —— 让界面与模型交互</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
