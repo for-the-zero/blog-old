@@ -64,11 +64,11 @@
     <category term="技术" scheme="https://for-the-zero.github.io/blog-old/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
-    
     <category term="Dev" scheme="https://for-the-zero.github.io/blog-old/tags/Dev/"/>
     
     <category term="前端" scheme="https://for-the-zero.github.io/blog-old/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
     
   </entry>
   
@@ -94,11 +94,11 @@
     <category term="技术" scheme="https://for-the-zero.github.io/blog-old/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
-    
     <category term="Dev" scheme="https://for-the-zero.github.io/blog-old/tags/Dev/"/>
     
     <category term="前端" scheme="https://for-the-zero.github.io/blog-old/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
     
     <category term="Python" scheme="https://for-the-zero.github.io/blog-old/tags/Python/"/>
     
@@ -148,11 +148,11 @@
     <category term="技术" scheme="https://for-the-zero.github.io/blog-old/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
-    
     <category term="Dev" scheme="https://for-the-zero.github.io/blog-old/tags/Dev/"/>
     
     <category term="前端" scheme="https://for-the-zero.github.io/blog-old/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
     
   </entry>
   
@@ -179,9 +179,9 @@
     <category term="技术" scheme="https://for-the-zero.github.io/blog-old/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
-    
     <category term="Dev" scheme="https://for-the-zero.github.io/blog-old/tags/Dev/"/>
+    
+    <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
     
   </entry>
   
@@ -385,6 +385,29 @@
   </entry>
   
   <entry>
+    <title>该博客已废弃</title>
+    <link href="https://for-the-zero.github.io/blog-old/2024/%E5%BA%9F%E5%BC%83/"/>
+    <id>https://for-the-zero.github.io/blog-old/2024/%E5%BA%9F%E5%BC%83/</id>
+    <published>2024-10-19T12:42:00.000Z</published>
+    <updated>2025-08-24T08:09:20.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>请前往新的个人网站：</p><p><a href="https://for-the-zero.github.io/">Github Pages</a><br><a href="https://forthezero.netlify.app/">Netlify</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;请前往新的个人网站：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://for-the-zero.github.io/&quot;&gt;Github Pages&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://forthezero.netlify.app/&quot;&gt;Netlify&lt;/a&gt;&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="其它" scheme="https://for-the-zero.github.io/blog-old/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>制度的“洪流”</title>
     <link href="https://for-the-zero.github.io/blog-old/2024/%E5%88%B6%E5%BA%A6%E7%9A%84%E2%80%9C%E6%B4%AA%E6%B5%81%E2%80%9D/"/>
     <id>https://for-the-zero.github.io/blog-old/2024/%E5%88%B6%E5%BA%A6%E7%9A%84%E2%80%9C%E6%B4%AA%E6%B5%81%E2%80%9D/</id>
@@ -537,32 +560,6 @@
     
     
     <category term="LLM" scheme="https://for-the-zero.github.io/blog-old/tags/LLM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>相机算法对比：vivo vs Google</title>
-    <link href="https://for-the-zero.github.io/blog-old/2024/%E7%9B%B8%E6%9C%BA%E7%AE%97%E6%B3%95%E5%AF%B9%E6%AF%94/"/>
-    <id>https://for-the-zero.github.io/blog-old/2024/%E7%9B%B8%E6%9C%BA%E7%AE%97%E6%B3%95%E5%AF%B9%E6%AF%94/</id>
-    <published>2024-02-05T03:52:00.000Z</published>
-    <updated>2024-02-05T03:55:48.522Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="相机算法对比"><a href="#相机算法对比" class="headerlink" title="相机算法对比"></a>相机算法对比</h1><p>终于把旧手圾换掉了</p><p>是IQOO Neo9</p><p>既然整了个大的，不如看看相机怎么样</p><p>受伤没有可对比的，就看算法吧</p><p>一上手就装了个谷歌相机（酷安日文大佬的）</p><p>看看vivo的算法好还是谷歌的算法好</p><p>下面的图片都是普通&#x2F;标准模式&#x2F;徕卡鲜艳、夜景&#x2F;夜视仪&#x2F;夜景压光模式拍摄的</p><p>趁着一个外出的机会拍一拍（一年也没去过几次）</p><hr><table><thead><tr><th align="left">场景</th><th align="center">原生相机</th><th align="left">点评</th><th align="center">谷歌相机</th><th align="left">点评</th><th align="left">总结</th></tr></thead><tbody><tr><td align="left">光照充足的田野</td><td align="center"><img src="/blog-old/img/6da0a2833845130616565ec8e583492f25c586dc.jpg" alt="IMG_20240203_145109.jpg"></td><td align="left">颜色比较淡</td><td align="center"><img src="/blog-old/img/12d7eca14eae87ce67434dabf4294c2ea4e15279.jpg" alt="CRnall_20240203_145115548.jpg"></td><td align="left">颜色鲜艳，很浓，主观上挺喜欢的</td><td align="left">谷歌相机好，明显更鲜艳</td></tr><tr><td align="left">光照较少</td><td align="center"><img src="/blog-old/img/e6b9d4ba7f53b59398acaaee8e86ccca3d8f1138.jpg" alt="IMG_20240203_145752.jpg"></td><td align="left">整个画面都亮了，石头清晰，细节较多</td><td align="center"><img src="/blog-old/img/591ccb4b27ff2b764ca72deb50950d6cb8e26742.jpg" alt="CRnall_20240203_145745516.jpg"></td><td align="left">这个光影的效果不错</td><td align="left">主观上谷歌相机</td></tr><tr><td align="left">近距离拍几朵花</td><td align="center"><img src="/blog-old/img/312e597e2628a0a8fc2faee861e7e3f0c5ebbc5c.jpg" alt="IMG_20240203_181647.jpg"></td><td align="left">颜色中规中矩，但是虚化不错</td><td align="center"><img src="/blog-old/img/b4c9ddde972a84d63222f00e3cd6d451dd747b13.jpg" alt="CRnall_20240203_181629237.jpg"></td><td align="left">颜色鲜艳，细节少，还有点糊</td><td align="left">偏要说谁好的话，就原生的吧</td></tr><tr><td align="left">很黑的夜晚（肉眼几乎看不到什么东西）+一盏白炽灯</td><td align="center"><img src="/blog-old/img/a5f898a5ae66f397b1a1b89aa3b9482e738296bf.jpg" alt="IMG_20240203_185250.jpg"></td><td align="left">后面的树是黑的，前面的东西还有点颜色。这灯泡跟画上去的太阳一样，感觉有点假。整体很亮</td><td align="center"><img src="/blog-old/img/05920b296d53483a6c960b179684ce955631704f.jpg" alt="CRnall_20240203_185018545.jpg"></td><td align="left">细节少， 更加黑，糊。灯泡的亮度倒是压下去了，但总体相对来说不行</td><td align="left">原生完胜</td></tr><tr><td align="left">很黑的夜晚（肉眼几乎看不到什么东西）</td><td align="center"><img src="/blog-old/img/43460f2bc50b415aad395475086314e3225a0cf9.jpg" alt="IMG_20240203_191149.jpg"></td><td align="left">更模糊，更亮（惊人的4万ISO）</td><td align="center"><img src="/blog-old/img/c45eef2dbd863d38ea594873544ff3f73508443f.jpg" alt="CRnall_20240203_191125429.jpg"></td><td align="left">很模糊，但是天空的颜色和这种氛围感我挺喜欢的</td><td align="left">谷歌相机更好吧</td></tr></tbody></table><p>谷歌相机3：2原生相机</p><p>很难说谁好</p><p>更多看主观</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;相机算法对比&quot;&gt;&lt;a href=&quot;#相机算法对比&quot; class=&quot;headerlink&quot; title=&quot;相机算法对比&quot;&gt;&lt;/a&gt;相机算法对比&lt;/h1&gt;&lt;p&gt;终于把旧手圾换掉了&lt;/p&gt;
-&lt;p&gt;是IQOO Neo9&lt;/p&gt;
-&lt;p&gt;既然整了个大的，不如看看相机怎么样&lt;/</summary>
-      
-    
-    
-    
-    <category term="技术" scheme="https://for-the-zero.github.io/blog-old/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="拍照" scheme="https://for-the-zero.github.io/blog-old/tags/%E6%8B%8D%E7%85%A7/"/>
     
   </entry>
   

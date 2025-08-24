@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://for-the-zero.github.io/blog-old/2024/%E5%BA%9F%E5%BC%83/</loc>
+    
+    <lastmod>2025-08-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://for-the-zero.github.io/blog-old/2024/CapsTools/</loc>
     
     <lastmod>2025-08-13</lastmod>
@@ -362,13 +371,6 @@
 
   
   <url>
-    <loc>https://for-the-zero.github.io/blog-old/tags/LLM/</loc>
-    <lastmod>2025-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://for-the-zero.github.io/blog-old/tags/Dev/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -377,6 +379,13 @@
   
   <url>
     <loc>https://for-the-zero.github.io/blog-old/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://for-the-zero.github.io/blog-old/tags/LLM/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

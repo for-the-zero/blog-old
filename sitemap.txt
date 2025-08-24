@@ -1,3 +1,4 @@
+https://for-the-zero.github.io/blog-old/2024/%E5%BA%9F%E5%BC%83/
 https://for-the-zero.github.io/blog-old/2024/CapsTools/
 https://for-the-zero.github.io/blog-old/2025/MapPinner/
 https://for-the-zero.github.io/blog-old/2025/LMCanvas/
@@ -38,9 +39,9 @@ https://for-the-zero.github.io/blog-old/2023/scil/
 https://for-the-zero.github.io/blog-old/2023/DearPyGui%E7%AC%94%E8%AE%B0/
 https://for-the-zero.github.io/blog-old/about/index.html
 https://for-the-zero.github.io/blog-old
-https://for-the-zero.github.io/blog-old/tags/LLM/
 https://for-the-zero.github.io/blog-old/tags/Dev/
 https://for-the-zero.github.io/blog-old/tags/%E5%89%8D%E7%AB%AF/
+https://for-the-zero.github.io/blog-old/tags/LLM/
 https://for-the-zero.github.io/blog-old/tags/Python/
 https://for-the-zero.github.io/blog-old/tags/%E6%8B%8D%E7%85%A7/
 https://for-the-zero.github.io/blog-old/categories/%E6%8A%80%E6%9C%AF/
